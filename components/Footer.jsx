@@ -107,7 +107,7 @@ function Footer() {
               <li className="mt-4">
                 <a
                   href="#"
-                  title=""
+                  title="work"
                   className="flex items-center opacity-75 hover:opacity-100"
                 >
                   <span>
@@ -132,7 +132,7 @@ function Footer() {
               <li className="mt-4">
                 <a
                   href="#"
-                  title=""
+                  title="phone"
                   className="flex items-center opacity-75 hover:opacity-100"
                 >
                   <span>
@@ -152,7 +152,7 @@ function Footer() {
               <li className="mt-4">
                 <a
                   href="#"
-                  title=""
+                  title="address"
                   className="flex items-center opacity-75 hover:opacity-100"
                 >
                   <span>
@@ -174,17 +174,17 @@ function Footer() {
 
           <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
             <h5 className="uppercase tracking-wider font-semibold text-gray-400">
-              We're Social
+              Social Contact
             </h5>
             <ul className="mt-4 flex">
               <li>
-                <a href="#" target="_blank" title="">
+                <a href="#" target="_blank" title="facebook">
                   <FaFacebook className="text-2xl" />
                 </a>
               </li>
 
               <li className="ml-6">
-                <a href="#" target="_blank" title="">
+                <a href="#" target="_blank" title="twitter">
                   <FaTwitter className="text-2xl" />
                 </a>
               </li>
@@ -196,14 +196,14 @@ function Footer() {
               </li>
 
               <li className="ml-6">
-                <a href="#" target="_blank" title="">
+                <a href="#" target="_blank" title="youtube">
                   <FaYoutube className="text-2xl" />
                 </a>
               </li>
             </ul>
 
             <p className="text-sm text-gray-400 mt-12">
-              &copy; {new Date().getFullYear()} LD Recruitment.{' '}
+              &copy; {new Date().getFullYear()} LD Recruitment.
               <br className="hidden lg:block" />
               All Rights Reserved.
             </p>
