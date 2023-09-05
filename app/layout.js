@@ -10,7 +10,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="de">
+      <head>
+        <link
+          rel="alternate"
+          hreflang="de"
+          href="https://job-site-49yo21ad3-369webforall.vercel.app/"
+        />
+        <link
+          rel="alternate"
+          hreflang="en"
+          href="https://job-site-49yo21ad3-369webforall.vercel.app/"
+        />
+      </head>
       <body>
         <div className="grid grid-rows-layout h-screen w-full">
           <Header />
