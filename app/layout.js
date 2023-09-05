@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="alternate"
-          hreflang="de"
+          hreflang="en"
           href="https://job-site-49yo21ad3-369webforall.vercel.app/"
         />
         <link
           rel="alternate"
-          hreflang="en"
+          hreflang="de"
           href="https://job-site-49yo21ad3-369webforall.vercel.app/"
         />
       </head>
