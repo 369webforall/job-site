@@ -1,29 +1,33 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/bg-image.png';
+import heroImage from '@/public/assets/images/bg-image.jpg';
 import Link from 'next/link';
 const HeroSection = () => {
-  const backgroundStyles = {
-    backgroundImage: `url(${heroImage.src})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '80vh', // Set the desired height
-  };
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat"
-      style={backgroundStyles}
-    >
-      <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+    <section className="relative bg-red-600">
+      <div className="relative h-[100vh] sm:h-[90vh] lg:h-[80vh]">
+        <Image
+          src={heroImage}
+          alt="hero section"
+          placeholder="blur"
+          quality={100}
+          fill
+          sizes="100vw"
+          className="object-cover block"
+        />
+      </div>
 
-      <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:flex lg:h-[80vh] lg:items-center lg:px-8">
-        <div className="mt-20 py-4 max-w-xl  ltr:sm:text-left rtl:sm:text-right text-gray-900 ">
-          <h1 className="text-4xl font-thin sm:text-6xl">
+      <div className="absolute inset-0 bg-white/75 md:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+
+      <div className="absolute z-10 top-0 left-0 md:left-10 lg:left-60  mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:flex sm:h-[90vh] lg:h-[80vh] sm:items-start lg:items-center lg:px-8">
+        <div className="mt-5 md:mt-15 py-4 max-w-xl  ltr:sm:text-left rtl:sm:text-right text-gray-900 font-roboto ">
+          <h1 className="text-4xl md:text-6xl font-thin font-sans">
             Sie suchen - wir vermitteln
           </h1>
 
-          <p className="mt-4 max-w-lg sm:text-xl/relaxed">
+          <p className="mt-4 max-w-lg md:text-xl/relaxed">
             Ihre Vorteile durch unsere Vermittlung
           </p>
           <div className="my-8 flex flex-wrap gap-4 text-center">
@@ -34,7 +38,7 @@ const HeroSection = () => {
               Find Jobs
             </Link>
           </div>
-          <p className="mt-20 max-w-lg sm:text-xl/relaxed">
+          <p className="mt-20 max-w-lg md:text-xl/relaxed">
             Sie möchten die Vorteile einer Personalvermittlung nutzen oder haben
             Fragen? Wir freuen uns und sind gern für Sie da.
           </p>

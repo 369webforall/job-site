@@ -4,22 +4,27 @@ import poster from '@/public/assets/images/poster.jpg';
 
 const AboutSection = () => {
   return (
-    <section className="relative text-gray-600 md:py-20 font-textFont">
-      <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center ">
-        <div className="relative lg:max-w-2xl lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 h-[400px] py-2 flex items-center justify-center">
-          <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 bg-orange-600 h-[400px] py-2 flex items-center justify-center">
+    <section className="relative text-gray-800 md:py-12">
+      <div className="w-full md:container mx-auto  px-1 py-10 flex flex-col  md:flex-row items-center justify-between gap-10">
+        <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
+          <div className="relative h-[250px] w-[600px] md:h-[400px] md:w-[600px]">
             <Image
-              className="object-cover object-center rounded absolute"
+              className=""
               alt="hero"
               src={poster}
+              placeholder="blur"
+              fill
+              sizes="100vw"
             />
           </div>
+          <div className="absolute top-0 mx-auto w-1/2 h-5 bg-red-500"></div>
+          <div className="absolute bottom-0 mx-auto w-1/2 h-5 bg-red-500"></div>
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h2 className="text-lg sm:font-thin sm:text-5xl mb-6  text-gray-900 text-center ">
+        <div className="lg:flex-grow md:w-1/2 lg:pl-12 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+          <h2 className="text-4xl md:text-6xl font-thin font-sans mb-6  text-gray-900 text-center ">
             Finde Deinen neuen Job!
           </h2>
-          <p className="mb-8 leading-relaxed text-sm sm:2xl">
+          <p className="mb-8 leading-relaxed  max-w-2xl md:text-xl/relaxed font-roboto">
             Lernen Sie unser umfassendes Angebot, innovative Lösungen und
             moderne Services kennen. Begeben Sie sich mit uns auf einen
             erfolgreichen Weg bei der Job- oder der Mitarbeitersuche.Diversität,

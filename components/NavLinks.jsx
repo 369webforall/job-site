@@ -1,8 +1,9 @@
+'use client';
 import React, { useState } from 'react';
 import { navData } from '@/constants';
 import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
-const NavLinks = () => {
+const NavLinks = ({ handleScroll }) => {
   const [hoverIndex, setHoverIndex] = useState(null);
   return (
     <>
@@ -10,9 +11,10 @@ const NavLinks = () => {
         <Link
           key={_id}
           href={href}
-          className="relative -mx-3 -my-2 rounded-lg py-4 px-2 text-base text-gray-900 transition-colors"
+          className="relative -mx-3 -my-2 rounded-lg py-4 px-2 text-base text-gray-900 transition-colors nav-link"
           onMouseEnter={() => setHoverIndex(_id)}
           onMouseLeave={() => setHoverIndex(null)}
+          onClick={handleScroll}
         >
           <AnimatePresence>
             {hoverIndex === _id && (

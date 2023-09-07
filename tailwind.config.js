@@ -1,4 +1,3 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,29 +7,40 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        bodyFont: ['Poppins', 'sans-serif'],
-        textFont: ['Roboto', 'sans-serif'],
+        sans: ['var(--font-inter)'],
+        roboto: ['var(--font-roboto)'],
+      },
+      maxWidth: {
+        container: '1440px',
+        contentContainer: '1140px',
+        containerSmalll: '1024px',
+        containerxs: '768px',
+      },
+      screens: {
+        xs: '320px',
+        sm: '375px',
+        sml: '500px',
+        md: '667px',
+        mdl: '768px',
+        lg: '960px',
+        lgl: '1024px',
+        xl: '1280px',
+      },
+      boxShadow: {
+        navbarShadow: '0 10px 30px -10px rgba(2, 12, 27, 0.7)',
       },
       colors: {
-        dark: '#3c4858',
-        black: '#161c2d',
-        'dark-footer': '#161c28',
-        primary1: '#5927E5',
-        light1: '#D0E6EF',
-        green1: '#1A819D',
-
-        primary: '#29abe3',
-        primaryDark: '#3829e3',
-        logo: '#edebeb',
-        bg1: '#4c05b0',
-      },
-      gridTemplateRows: {
-        layout: 'auto 1fr auto',
-      },
-      backgroundImage: {
-        'bg-image': '/public/assets/images/bg-image.png',
+        bodyColor: '#0A192F',
+        textGreen: '#64ffda',
+        textLight: '#ccd6f6',
+        textDark: '#8892b0',
+        hoverColor: 'rgba(100, 255, 218, 0.1)',
       },
     },
   },

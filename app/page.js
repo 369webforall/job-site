@@ -1,18 +1,15 @@
-import React from 'react';
-// import Hero from '@/components/Hero';
+import Image from 'next/image';
 import HeroSection from '@/components/Hero';
 import AboutSection from '@/components/AboutSection';
 import WorkSection from '@/components/WorkSection';
 import SectionComponent from '@/components/SectionComponent';
-const Home = () => {
+export default function Home() {
   return (
-    <div className="text-2xl text-primary">
+    <main className="min-h-screen">
       <HeroSection />
       <AboutSection />
       <WorkSection />
       <SectionComponent />
-    </div>
+    </main>
   );
-};
-
-export default Home;
+}

@@ -1,6 +1,18 @@
 import './globals.css';
-import Header from '@/components/Header';
+import { Inter, Roboto } from 'next/font/google';
+import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   title: 'LD-Personalvermittlungs | Job Portal',
@@ -10,21 +22,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="de">
-      <head>
-        <link
-          rel="alternate"
-          hreflang="de"
-          href="https://job-site-49yo21ad3-369webforall.vercel.app/"
-        />
-      </head>
+    <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
       <body>
-        <div className="grid grid-rows-layout h-screen w-full">
-          <Header />
-          <main>{children}</main>
-
-          <Footer />
-        </div>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
