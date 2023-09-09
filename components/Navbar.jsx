@@ -11,7 +11,6 @@ const Navbar = () => {
   const ref = useRef();
   const [showMenu, setShowMenu] = useState(false);
   const handleScroll = (e) => {
-    e.preventDefault();
     setShowMenu(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, '');
