@@ -73,9 +73,9 @@ function Footer() {
                   </Link>
                 </li>
                 <li className="mt-2">
-                  <Link href="/admin" className="opacity-75 hover:opacity-100">
+                  {/* <Link href="/admin" className="opacity-75 hover:opacity-100">
                     Admin
-                  </Link>
+                  </Link> */}
                 </li>
               </ul>
             </div>

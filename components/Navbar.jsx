@@ -33,11 +33,11 @@ const Navbar = () => {
     }
   }
   return (
-    <header className="px-4 w-full shadow-navbarShadow h-20 lg:h-24  sticky top-0 z-50 bg-[#EFEFED] flex justify-between items-center">
-      <div className="container h-full mx-auto py-1 flex items-center justify-between">
+    <header className="px-4 w-full shadow-navbarShadow h-18 lg:h-20  sticky top-0 z-50 bg-[#EFEFED] flex justify-between items-center">
+      <div className="w-full px-5 md:px-6 lg:px-20 h-full mx-auto py-1 flex items-center justify-between">
         <Logo />
-        <div className="hidden mdl:inline-flex items-center gap-7">
-          <nav className="grid grid-cols-8 gap-10">
+        <div className="hidden mdl:inline-flex items-center flex-1 justify-end">
+          <nav className="grid grid-cols-5 gap-10">
             <NavLinks handleScroll={handleScroll} />
           </nav>
         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
               <div>
                 <ul className="flex flex-col text-base gap-7 mb-4">
                   <Link
-                    href="/home"
+                    href="/"
                     className="flex items-center gap-1 font-medium text-gray-700 hover:text-gray-900 cursor-pointer duration-300 nav-link"
                     onClick={handleScroll}
                   >
@@ -118,25 +118,13 @@ const Navbar = () => {
                       Contact
                     </motion.li>
                   </Link>
-                  <Link
-                    href="/admin"
-                    className="flex items-center gap-1 font-medium text-gray-700 hover:text-gray-900 cursor-pointer duration-300 nav-link"
-                    onClick={handleScroll}
-                  >
-                    <motion.li
-                      initial={{ y: -10, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      transition={{ duration: 0.1, delay: 0.4 }}
-                    >
-                      Admin
-                    </motion.li>
-                  </Link>
                 </ul>
               </div>
             </motion.div>
           </div>
         )}
       </div>
+      <hr className="bg-yellow-500 h-2 z-50" />
     </header>
   );
 };

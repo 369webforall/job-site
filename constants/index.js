@@ -3,92 +3,43 @@ export const navData = [
   { _id: 102, title: 'Jobs', href: '/jobs' },
   { _id: 103, title: 'Blogs', href: '/blogs' },
   { _id: 104, title: 'Contact', href: '/contact' },
-  { _id: 105, title: 'Admin', href: '/login' },
+  // { _id: 105, title: 'Admin', href: '/login' },
 ];
 
 export const jobData = [
   {
-    title: 'Frontend Developer',
-    company: 'ABC Tech',
+    id: 1,
+    title: 'Zusteller helfer',
+    company: 'LD-Personalvermittlungs',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    applyLink: 'https://example.com/apply',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/jobs/id',
   },
   {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
+    id: 2,
+    title: 'LKW Fahrer',
+    company: 'LD-Personalvermittlungs',
     description:
       'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/jobs/id',
   },
   {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
+    id: 3,
+    title: 'Produktionshelfer',
+    company: 'LD-Personalvermittlungs',
     description:
       'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/jobs/id',
   },
   {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
+    id: 4,
+    title: 'Lagerhelfer',
+    company: 'LD-Personalvermittlungs',
     description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
+      'Lagermitarbeiter (Pick by Voice) auf verschiedenen Standorten je nach Bedarf des Kunden....',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/jobs/id',
   },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  {
-    title: 'Backend Developer',
-    company: 'XYZ Corp',
-    description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
-    applyLink: 'https://example.com/apply',
-  },
-  // Add more job listings as needed
 ];

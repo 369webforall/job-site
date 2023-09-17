@@ -6,7 +6,7 @@ import heroImage from '@/public/assets/images/bg-image.jpg';
 import Link from 'next/link';
 const HeroSection = () => {
   return (
-    <section className="relative bg-red-600">
+    <section className="relative">
       <div className="relative h-[100vh] sm:h-[90vh] lg:h-[80vh]">
         <Image
           src={heroImage}
