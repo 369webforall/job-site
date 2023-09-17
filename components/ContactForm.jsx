@@ -7,6 +7,7 @@ const ContactForm = () => {
     name: '',
     email: '',
     message: '',
+    telephone: '',
   });
 
   const handleChange = (e) => {
@@ -32,11 +33,11 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-md mx-auto p-6">
-      <h2 className="text-2xl mb-4">Contact Us</h2>
+      <h2 className="text-2xl mb-4">Kontaktieren Sie uns</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="name">
-            Name
+            Vollständiger Name*
           </label>
           <input
             type="text"
@@ -50,7 +51,7 @@ const ContactForm = () => {
         </div>
         <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="email">
-            Email
+            E-Mail*
           </label>
           <input
             type="email"
@@ -63,8 +64,22 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-4">
+          <label className="block text-gray-600 mb-2" htmlFor="telephone">
+            Telefonnummer*
+          </label>
+          <input
+            type="telephone"
+            id="telephone"
+            name="telephone"
+            value={formData.telephone}
+            onChange={handleChange}
+            className="w-full border border-gray-300 rounded px-3 py-2"
+            required
+          />
+        </div>
+        <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="message">
-            Message
+            Ihre Nachricht an uns*
           </label>
           <textarea
             id="message"
@@ -79,7 +94,7 @@ const ContactForm = () => {
           type="submit"
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
         >
-          Submit
+          EINSENDEN
         </button>
       </form>
     </div>

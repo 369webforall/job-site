@@ -5,6 +5,7 @@ import GoogleMapComponent from '@/components/GoogleMap';
 const Contact = () => {
   return (
     <div>
+      <h1>Kontaktieren Sie uns</h1>
       <ContactForm />
       <div>
         <div className="container mx-auto mt-8">
