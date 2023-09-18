@@ -12,13 +12,6 @@ const Jobs = () => {
       <Category />
       <Accordian />
       <Faq />
-      {/* <div className="col-start-2 col-span-11">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {jobData.map((job, index) => (
-            <JobListing key={index} job={job} />
-          ))}
-        </div>
-      </div> */}
     </div>
   );
 };

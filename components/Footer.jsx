@@ -48,7 +48,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-start-1 md:col-start-9 col-span-3">
+            <div className="col-start-1 md:col-start-11 col-span-2">
               <h5 className="uppercase tracking-wider font-semibold text-gray-700">
                 Visit
               </h5>
