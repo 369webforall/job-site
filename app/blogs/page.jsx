@@ -76,7 +76,7 @@ const Blogs = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 font-roboto">
+      <section className="text-gray-600 font-roboto lg:mb-8">
         <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
           <h2 className="sm:text-3xl text-2xl my-2 font-medium text-gray-900">
             <b>FRAGEN:</b>Diese 10 stellt die Personalberaterin
@@ -126,7 +126,6 @@ const Blogs = () => {
           </p>
         </div>
       </section>
-      <hr className="h-2 bg-orange-400" />
     </>
   );
 };

@@ -9,6 +9,7 @@ import LogoImg from '@/public/assets/icons/logo.jpg';
 function Footer() {
   return (
     <>
+      <hr className="h-2 bg-orange-400" />
       <footer className="relative bg-[#EFEFED] text-gray-900 font-roboto">
         <div className=" px-4 sm:px-6 lg:px-16 py-6  max-w-container mx-auto">
           <div className="grid gap-6 grid-cols-1 md:grid-cols-12">
@@ -23,23 +24,26 @@ function Footer() {
 
             <div className="col-start-1 md:col-start-5 col-span-4">
               <h5 className="uppercase tracking-wider font-semibold text-gray-700">
-                Further information
+                Weitere Informationen
               </h5>
               <ul className="mt-4 flex flex-col gap-3 text-gray-900">
                 <li className="mt-2">
-                  <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Privacy Policy
-                  </a>
+                  <Link href="/policy" className="opacity-75 hover:opacity-100">
+                    Datenschutz
+                  </Link>
                 </li>
                 <li className="mt-2">
-                  <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Terms and Conditions
-                  </a>
+                  <Link href="/tmc" className="opacity-75 hover:opacity-100">
+                    AGB
+                  </Link>
                 </li>
                 <li className="mt-2">
-                  <a href="#" title="" className="opacity-75 hover:opacity-100">
-                    Imprint
-                  </a>
+                  <Link
+                    href="/imprint"
+                    className="opacity-75 hover:opacity-100"
+                  >
+                    Impressum
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -72,11 +76,6 @@ function Footer() {
                     Contact
                   </Link>
                 </li>
-                <li className="mt-2">
-                  {/* <Link href="/admin" className="opacity-75 hover:opacity-100">
-                    Admin
-                  </Link> */}
-                </li>
               </ul>
             </div>
           </div>
@@ -91,9 +90,8 @@ function Footer() {
               <div className="flex flex-col md:flex-row justify-between gap-6">
                 <ul className="mt-4 flex flex-col md:flex-row gap-6 justify-around flex-1">
                   <li>
-                    <a
-                      href="#"
-                      title=""
+                    <Link
+                      href="/contact"
                       className="flex items-center opacity-75 hover:opacity-100"
                     >
                       <span>
@@ -112,13 +110,12 @@ function Footer() {
                         <br />
                         33378 Rheda Wiederbruck
                       </span>
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="mt-4">
-                    <a
-                      href="#"
-                      title="work"
+                    <Link
+                      href="/contact"
                       className="flex items-center opacity-75 hover:opacity-100"
                     >
                       <span>
@@ -138,14 +135,13 @@ function Footer() {
                         <br />
                         Closed on Weekends
                       </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <ul>
                   <li className="mt-4">
-                    <a
-                      href="#"
-                      title="phone"
+                    <Link
+                      href="/contact"
                       className="flex items-center opacity-75 hover:opacity-100"
                     >
                       <span>
@@ -160,12 +156,11 @@ function Footer() {
                         </svg>
                       </span>
                       <span className="ml-3">+49 179 7257337</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a
-                      href="#"
-                      title="phone"
+                    <Link
+                      href="/contact"
                       className="flex items-center opacity-75 hover:opacity-100"
                     >
                       <span>
@@ -180,12 +175,11 @@ function Footer() {
                         </svg>
                       </span>
                       <span className="ml-3">+49 15510 204189</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="mt-4">
-                    <a
-                      href="#"
-                      title="address"
+                    <Link
+                      href="/contact"
                       className="flex items-center opacity-75 hover:opacity-100"
                     >
                       <span>
@@ -202,7 +196,7 @@ function Footer() {
                       <span className="ml-3">
                         kontat@ld-personalvermittlung.de
                       </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
