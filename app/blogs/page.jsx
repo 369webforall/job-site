@@ -16,7 +16,7 @@ const Blogs = () => {
             />
           </div>
           <div className="lg:flex-grow  lg:pl-40 md:pl-16 flex items-center text-center ">
-            <h1 className="text-2xl md:text-6xl  mb-4 font-roboto font-thin text-gray-900">
+            <h1 className="text-4xl md:text-6xl  mb-4 font-roboto font-thin text-gray-900">
               Was macht eine
               <br className="hidden lg:inline-block" />
               Personalvermittlung?
@@ -33,7 +33,7 @@ const Blogs = () => {
             von LD Personalvermittlung und wie sie Ihnen bei Ihrer Karriere oder
             Ihrem Unternehmen helfen können.
           </p>
-          <h2 className="sm:text-3xl text-2xl font-roboto text-gray-900">
+          <h2 className="sm:text-3xl text-2xl mt-8 font-roboto text-gray-900">
             Die Kosten für Personalvermittlung
           </h2>
           <p class=" leading-relaxed text-lg font-roboto">
@@ -47,13 +47,13 @@ const Blogs = () => {
           </p>
         </div>
       </section>
-      <section className="text-gray-600 font-roboto">
-        <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-center">
-            <h2 className="md:text-3xl text-2xl mb-6 font-roboto text-gray-900">
+      <section className="text-gray-600 font-roboto lg:my-6">
+        <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col">
+          <div className="lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start">
+            <h2 className="md:text-3xl text-2xl mb-10 mt-4 font-roboto text-gray-900 p-1">
               Unterschied zwischen Personalberatung und Personalvermittlung
             </h2>
-            <p className="mb-8 leading-relaxed text-lg text-justify font-roboto">
+            <p className="leading-relaxed text-lg text-justify font-roboto max-w-3xl p-1">
               Oft werden die Begriffe Personalberatung und Personalvermittlung
               synonym verwendet, aber es gibt einen wichtigen Unterschied.
               Personalberatung konzentriert sich auf die Beratung von
@@ -65,7 +65,7 @@ const Blogs = () => {
             </p>
           </div>
 
-          <div className="relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div className="relative lg:max-w-lg lg:w-full md:w-1/2 flex-1">
             <Image
               className="object-cover object-center rounded"
               alt="hero image2"
@@ -74,21 +74,20 @@ const Blogs = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 font-roboto lg:mb-8">
-        <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center"></div>
-        <div className="container mx-auto flex px-5 py-5 md:flex-row flex-col items-center">
-          <div className="relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <section className="text-gray-600 font-roboto lg:my-10">
+        <div className="container mx-auto flex md:flex-row flex-col items-center">
+          <div className="relative lg:max-w-lg lg:w-full md:w-1/2 flex-1">
             <Image
               className="object-cover object-center rounded"
               alt="section 3"
               src={blog3}
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h2 className="sm:text-3xl text-2xl mb-8  text-gray-900">
+          <div className="px-2 py-1 lg:flex-1 md:w-1/2 lg:pl-24 md:pl-16 md:py-8 flex flex-col md:items-start md:text-left items-center">
+            <h2 className="sm:text-3xl text-xl mb-8 mt-6  text-gray-900">
               <b>FRAGEN:</b>Diese 10 stellt die Personalberaterin
             </h2>
-            <ol className="list-decimal flex flex-col gap-4 text-lg">
+            <ol className="list-decimal flex flex-col gap-4 text-lg px-2 lg:px-1">
               <li>
                 Welche Qualifikationen und Erfahrungen sind für die Position
                 erforderlich?
@@ -114,7 +113,7 @@ const Blogs = () => {
             </ol>
           </div>
         </div>
-        <div className="container mx-auto flex px-5 py-2  flex-col gap-4">
+        <div className="container mx-auto flex px-2 py-2  flex-col gap-4 my-10">
           <p class="text-xl font-roboto font-medium leading-relaxed">
             LD Personalvermittlung beantwortet all diese Fragen und bietet eine
             individuelle Betreuung, um sicherzustellen, dass sowohl Unternehmen
