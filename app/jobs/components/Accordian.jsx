@@ -10,8 +10,8 @@ import CardPage from './Card';
 const Accordian = () => {
   return (
     <div className="container mx-auto my-6">
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-start-1 col-span-4">
+      <div className="grid grid-col-1 md:grid-cols-12 gap-4">
+        <div className="md:col-start-1 md:col-span-4">
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>Zusteller helfer</AccordionTrigger>
@@ -39,7 +39,7 @@ const Accordian = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <div className="col-start-5 col-span-8 px-4">
+        <div className="md:col-start-5 md:col-span-8">
           <div className="grid grid-col-1 md:grid-cols-2 gap-10 items-start justify-end">
             {jobData.map((job) => (
               <CardPage job={job} key={job.id} />

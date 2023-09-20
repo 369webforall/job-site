@@ -7,19 +7,19 @@ import {
 } from '@/components/ui/accordion';
 const Faq = () => {
   return (
-    <div className="container mx-auto my-6">
-      <div className="grid grid-cols-12 gap-4 py-10">
-        <div className="col-start-3 col-span-10">
+    <div className="px-4 md:container mx-auto my-6">
+      <div className="grid grid-col-1 md:grid-cols-12 gap-4 py-10">
+        <div className=" md:col-start-3 md:col-span-10">
           <h1 className="text-orange-800  text-4xl font-roboto p-2 rounded-sm mb-4">
             FAQ
           </h1>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
-              <AccordionTrigger className="text-lg">
+              <AccordionTrigger className="text-lg text-left">
                 Was ist der Unterschied zwischen Personalvermittlung und
                 Zeitarbeit?
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="text-left">
                 Bei der Personalvermittlung wird ein Kandidat an ein Unternehmen
                 vermittelt und nach einem erfolgreichen Bewerbungsprozess von
                 diesem eingestellt. Bei der Zeitarbeit sind die Kandidaten bei
@@ -28,10 +28,10 @@ const Faq = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className="text-lg">
+              <AccordionTrigger className="text-lg text-left">
                 Was macht eine Personalvermittlung?
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="text-left">
                 Eine Personalvermittlung rekrutiert im Auftrag von Arbeitgebern
                 neue Mitarbeitende, um ihre offenen Stellen zu besetzen. Sie
                 übernimmt die Suche und schlägt dem Unternehmen passende
@@ -40,10 +40,10 @@ const Faq = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger className="text-lg">
+              <AccordionTrigger className="text-lg text-left">
                 Wie viel kostet eine Personalvermittlung?
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="text-left">
                 Die Kosten für eine Personalvermittlung variieren teilweise sehr
                 stark. Oft wird eine Provision vereinbart, die sich am
                 Bruttojahresgehalt der zu besetzenden Stelle orientiert. 20-30
@@ -52,11 +52,11 @@ const Faq = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger className="text-lg">
+              <AccordionTrigger className="text-lg text-left">
                 Was ist der Unterschied zwischen Personalberatung und
                 Personalvermittlung?
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="text-left">
                 <b>PERSONALVERMITTLUNG:</b> DER UNTERSCHIED: Hier ist schon der
                 Unterschied offengelegt: Wo eine Personalvermittlung reiner
                 Dienstleister ist, steht die Personalberatung ihren Kunden
@@ -68,7 +68,7 @@ const Faq = () => {
               <AccordionTrigger className="text-lg">
                 Warum Personalvermittler?
               </AccordionTrigger>
-              <AccordionContent>
+              <AccordionContent className="text-left">
                 Ein Personalvermittler hat wesentlich bessere Möglichkeiten,
                 passende Mitarbeiter zu finden, als die Firma selbst. Durch den
                 Zugriff auf einen bestehenden Bewerberpool, besondere
