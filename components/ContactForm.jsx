@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import axios from 'axios';
-
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -92,7 +91,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors"
+          className="bg-yellow-700 text-white py-2 px-4 rounded hover:bg-yellow-900 transition-colors"
         >
           EINSENDEN
         </button>

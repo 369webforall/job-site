@@ -2,6 +2,7 @@
 import React from 'react';
 import Button from '@/components/Button';
 import { useRouter } from 'next/navigation';
+
 const JobDetails = () => {
   const route = useRouter();
   return (

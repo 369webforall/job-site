@@ -10,7 +10,7 @@ const Faq = () => {
     <div className="container mx-auto my-6">
       <div className="grid grid-cols-12 gap-4 py-10">
         <div className="col-start-3 col-span-10">
-          <h1 className="bg-orange-400 text-white text-4xl font-roboto p-2 rounded-sm mb-4">
+          <h1 className="text-orange-800  text-4xl font-roboto p-2 rounded-sm mb-4">
             FAQ
           </h1>
           <Accordion type="single" collapsible>

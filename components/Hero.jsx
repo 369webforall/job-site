@@ -10,11 +10,12 @@ const HeroSection = () => {
       <div className="relative h-[100vh] sm:h-[90vh] lg:h-[80vh]">
         <Image
           src={heroImage}
-          alt="hero section"
+          alt="hero image"
           placeholder="blur"
           quality={100}
+          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
           fill
-          sizes="100vw"
+          loading="eager"
           className="object-cover block"
         />
       </div>

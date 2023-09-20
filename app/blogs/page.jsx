@@ -3,6 +3,11 @@ import Image from 'next/image';
 import blog1 from '@/public/assets/images/blog1.jpg';
 import blog2 from '@/public/assets/images/blog2.jpg';
 import blog3 from '@/public/assets/images/blog3.jpg';
+export const metadata = {
+  title: 'LD Personalvermittlung - blogs',
+  description:
+    'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
+};
 const Blogs = () => {
   return (
     <>
@@ -11,8 +16,9 @@ const Blogs = () => {
           <div className="relative lg:max-w-2xl  md:w-1/2 mb-10 md:mb-0 ">
             <Image
               className="object-cover object-center rounded"
-              alt="blog main"
+              alt="meeting"
               src={blog1}
+              placeholder="blur"
             />
           </div>
           <div className="lg:flex-grow  lg:pl-40 md:pl-16 flex items-center text-center ">
@@ -68,8 +74,9 @@ const Blogs = () => {
           <div className="relative lg:max-w-lg lg:w-full md:w-1/2 flex-1">
             <Image
               className="object-cover object-center rounded"
-              alt="hero image2"
+              alt="interview"
               src={blog2}
+              placeholder="blur"
             />
           </div>
         </div>
@@ -79,8 +86,9 @@ const Blogs = () => {
           <div className="relative lg:max-w-lg lg:w-full md:w-1/2 flex-1">
             <Image
               className="object-cover object-center rounded"
-              alt="section 3"
+              alt="Personalberater"
               src={blog3}
+              placeholder="blur"
             />
           </div>
           <div className="px-2 py-1 lg:flex-1 md:w-1/2 lg:pl-24 md:pl-16 md:py-8 flex flex-col md:items-start md:text-left items-center">

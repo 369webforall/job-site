@@ -15,13 +15,13 @@ const CardPage = ({ job }) => {
     <Card className="lg:max-w-md w-full">
       <CardHeader>
         <CardDescription>{company}</CardDescription>
-        <CardTitle className="text-blue-700">{title}</CardTitle>
+        <CardTitle className="text-[#6E0B75]">{title}</CardTitle>
       </CardHeader>
       <CardContent>
         <p>{description}</p>
       </CardContent>
-      <CardFooter className="bg-gray-100 flex items-center justify-end py-2">
-        <Link href="/jobs/id" className="text-yellow-500 hover:text-yellow-700">
+      <CardFooter className="bg-yellow-800 hover:bg-yellow-900 flex items-center justify-end py-2">
+        <Link href="/jobs/id" className="text-white">
           <span className="flex gap-2 items-center">
             {details}
             <HiArrowLongRight />

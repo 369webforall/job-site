@@ -1,7 +1,10 @@
 import React from 'react';
 import ContactForm from '@/components/ContactForm';
 import GoogleMapComponent from '@/components/GoogleMap';
-
+export const metadata = {
+  title: 'LD Personalvermittlung - contact',
+  description: 'Book a meeting',
+};
 const Contact = () => {
   return (
     <div>

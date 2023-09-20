@@ -17,6 +17,7 @@ function Footer() {
               <Image
                 src={LogoImg}
                 alt="logo"
+                placeholder="blur"
                 fill
                 className="rounded-sm object-cover"
               />
@@ -208,25 +209,41 @@ function Footer() {
               </h5>
               <ul className="mt-4 flex">
                 <li>
-                  <a href="#" target="_blank" title="facebook">
+                  <a
+                    href="https://www.facebook.com/LDPersonalvermittlungGmbH"
+                    target="_blank"
+                    title="facebook"
+                  >
                     <FaFacebook className="text-2xl" />
                   </a>
                 </li>
 
                 <li className="ml-6">
-                  <a href="#" target="_blank" title="twitter">
+                  <a
+                    href="https://www.facebook.com/LDPersonalvermittlungGmbH"
+                    target="_blank"
+                    title="twitter"
+                  >
                     <FaTwitter className="text-2xl" />
                   </a>
                 </li>
 
                 <li className="ml-6">
-                  <a href="#" target="_blank" title="">
+                  <a
+                    href="https://www.facebook.com/LDPersonalvermittlungGmbH"
+                    target="_blank"
+                    title=""
+                  >
                     <FaInstagram className="text-2xl" />
                   </a>
                 </li>
 
                 <li className="ml-6">
-                  <a href="#" target="_blank" title="youtube">
+                  <a
+                    href="https://www.facebook.com/LDPersonalvermittlungGmbH"
+                    target="_blank"
+                    title="youtube"
+                  >
                     <FaYoutube className="text-2xl" />
                   </a>
                 </li>
