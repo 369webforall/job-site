@@ -22,7 +22,7 @@ const Blogs = () => {
             />
           </div>
           <div className="lg:flex-grow  lg:pl-40 md:pl-16 flex items-center text-center ">
-            <h1 className="text-4xl md:text-6xl  mb-4 font-roboto font-thin text-gray-900">
+            <h1 className="text-4xl md:text-6xl  mb-4 font-sans font-thin text-gray-900">
               Was macht eine
               <br className="hidden lg:inline-block" />
               Personalvermittlung?
@@ -55,7 +55,7 @@ const Blogs = () => {
       </section>
       <section className="text-gray-600 font-roboto lg:my-6">
         <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col">
-          <div className="lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start">
+          <div className="lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mt-14 mb-16 md:mb-0 items-start">
             <h2 className="md:text-3xl text-2xl mb-10 mt-4 font-roboto text-gray-900 p-1">
               Unterschied zwischen Personalberatung und Personalvermittlung
             </h2>
@@ -95,7 +95,7 @@ const Blogs = () => {
             <h2 className="sm:text-3xl text-xl mb-8 mt-6  text-gray-900">
               <b>FRAGEN:</b>Diese 10 stellt die Personalberaterin
             </h2>
-            <ol className="list-decimal flex flex-col gap-4 text-lg px-2 lg:px-1">
+            <ol className="list-decimal flex flex-col gap-4 text-lg px-2 lg:px-4">
               <li>
                 Welche Qualifikationen und Erfahrungen sind für die Position
                 erforderlich?

@@ -17,17 +17,6 @@ const Category = () => {
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center   hover:bg-gray-200">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-purple-100 text-yellow-500 mb-5 flex-shrink-0">
-              {/* <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-10 h-10"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-              </svg> */}
               <Image
                 src={exclusivity}
                 width={40}

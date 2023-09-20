@@ -19,7 +19,13 @@ export const metadata = {
   description:
     'LD-Personalvermittlungs GmbH: Ihr vertrauenswürdiger Partner für die Personalsuche. Wir verfügen über langjährige Erfahrung in der Direktvermittlung und bieten prompte und kostengünstige Personallösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Entdecken Sie unsere umfangreiche Auswahl an qualifiziertem Personal, von Pflegekräften bis zu Elektrikern, Bauarbeitern bis zu Zustellfahrern. Finden Sie noch heute Ihre ideale Arbeitskraft!',
   keywords: [
+    'personalvermittlung provision probezeit',
+    'personalvermittlungsvertrag',
+    'personalvermittlungsvertrag mit arbeitgeber muster',
+    'personalvermittlung kosten arbeitgeber',
     'Personalvermittlung',
+    'stellenvermittlung',
+    'personalvermittlung vorteile nachteile',
     'Direktvermittlung',
     'Neue Mitarbeiter finden',
     'Pflegepersonal vermitteln',

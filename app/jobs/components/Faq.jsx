@@ -9,7 +9,7 @@ const Faq = () => {
   return (
     <div className="px-4 md:container mx-auto my-6">
       <div className="grid grid-col-1 md:grid-cols-12 gap-4 py-10">
-        <div className=" md:col-start-3 md:col-span-10">
+        <div className=" md:col-start-1 md:col-span-12">
           <h1 className="text-orange-800  text-4xl font-roboto p-2 rounded-sm mb-4">
             FAQ
           </h1>

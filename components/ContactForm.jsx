@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Link from 'next/link';
 import axios from 'axios';
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -88,6 +89,19 @@ const ContactForm = () => {
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
           ></textarea>
+        </div>
+        <div className="my-4">
+          <p>
+            LD Personalvermittlung benötigt die Kontaktinformationen, die Sie
+            uns zur Verfügung stellen, um Sie bezüglich unserer Produkte und
+            Dienstleistungen zu kontaktieren. Sie können sich jederzeit von
+            diesen Benachrichtigungen abmelden. Informationen zum Abbestellen
+            sowie unsere Datenschutzpraktiken und unsere Verpflichtung zum
+            Schutz Ihrer Privatsphäre finden Sie in unserer
+            <Link href="/policy" className="italic text-orange-600">
+              Datenschutzerklärung.
+            </Link>
+          </p>
         </div>
         <button
           type="submit"

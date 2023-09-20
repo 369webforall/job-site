@@ -39,7 +39,7 @@ const Accordian = () => {
             </AccordionItem>
           </Accordion>
         </div>
-        <div className="md:col-start-5 md:col-span-8">
+        <div className="md:col-start-6 md:col-span-8">
           <div className="grid grid-col-1 md:grid-cols-2 gap-10 items-start justify-end">
             {jobData.map((job) => (
               <CardPage job={job} key={job.id} />

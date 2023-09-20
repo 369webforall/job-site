@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import poster from '@/public/assets/images/poster.jpg';
-
+import { HiArrowLongRight } from 'react-icons/hi2';
+import Link from 'next/link';
 const AboutSection = () => {
   return (
     <section className="relative text-gray-800 md:py-12">
@@ -31,6 +32,13 @@ const AboutSection = () => {
             Integration, Inklusion sowie der Förderung von Frauen und jungen
             Talenten.
           </p>
+
+          <Link href="/jobs" className="text-orange-600  p-2">
+            <span className="flex gap-2 items-center">
+              Hier Jobs Finden
+              <HiArrowLongRight />
+            </span>
+          </Link>
         </div>
       </div>
     </section>
