@@ -24,9 +24,9 @@ function Footer() {
             </div>
 
             <div className="col-start-1 md:col-start-5 col-span-4">
-              <h5 className="uppercase tracking-wider font-semibold text-gray-700">
+              <h2 className="uppercase tracking-wider font-semibold text-gray-700">
                 Weitere Informationen
-              </h5>
+              </h2>
               <ul className="mt-4 flex flex-col gap-3 text-gray-900">
                 <li className="mt-2">
                   <Link
@@ -53,9 +53,9 @@ function Footer() {
             </div>
 
             <div className="col-start-1 md:col-start-11 col-span-2">
-              <h5 className="uppercase tracking-wider font-semibold text-gray-700">
+              <h2 className="uppercase tracking-wider font-semibold text-gray-700">
                 Visit
-              </h5>
+              </h2>
               <ul className="mt-4 flex flex-col gap-3 ">
                 <li className="mt-2">
                   <Link href="/" className="opacity-75 hover:opacity-100">
@@ -88,9 +88,9 @@ function Footer() {
         <div className="bg-gray-900 text-white px-4 sm:px-6 lg:px-16 py-6">
           <div className="flex flex-col md:flex-row justify-between max-w-container mx-auto">
             <div className=" w-full lg:flex-1 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-              <h5 className="uppercase tracking-wider font-semibold text-gray-400">
+              <h2 className="uppercase tracking-wider font-semibold text-gray-400">
                 Contact Details
-              </h5>
+              </h2>
               <div className="flex flex-col md:flex-row justify-between gap-6">
                 <ul className="mt-4 flex flex-col md:flex-row gap-6 justify-around flex-1">
                   <li>
@@ -207,9 +207,9 @@ function Footer() {
             </div>
 
             <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-              <h5 className="uppercase tracking-wider font-semibold text-gray-400">
+              <h2 className="uppercase tracking-wider font-semibold text-gray-400">
                 Social Contact
-              </h5>
+              </h2>
               <ul className="mt-4 flex">
                 <li>
                   <a

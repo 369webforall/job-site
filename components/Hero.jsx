@@ -34,7 +34,9 @@ const HeroSection = () => {
           <div className="my-8 flex flex-wrap gap-4 text-center">
             <Link
               href="/jobs"
-              className="block w-full rounded bg-orange-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              role="link"
+              aria-label="Jobs suchen"
+              className="block w-full rounded bg-orange-800 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-900 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
               Hier Jobs Finden
             </Link>

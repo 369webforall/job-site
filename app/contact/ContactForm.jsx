@@ -33,7 +33,7 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-xl">
-      <h2 className="text-2xl mb-4">Kontaktieren Sie uns</h2>
+      <h1 className="text-2xl mb-4">Kontaktieren Sie uns</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="name">
