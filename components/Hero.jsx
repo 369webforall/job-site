@@ -20,7 +20,7 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="absolute inset-0 bg-white/75 md:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+      <div className="absolute inset-0 bg-white/60 md:bg-transparent sm:from-white/70 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className="absolute z-10 top-0 left-0 md:left-10 lg:left-[136px]  mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:flex sm:h-[90vh] lg:h-[80vh] sm:items-start lg:items-center lg:px-8">
         <div className="mt-5 md:mt-15 py-4 max-w-xl  ltr:sm:text-left rtl:sm:text-right text-gray-900 font-roboto ">
@@ -36,7 +36,7 @@ const HeroSection = () => {
               href="/jobs"
               role="link"
               aria-label="Jobs suchen"
-              className="block w-full rounded bg-orange-800 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-900 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className="block w-full rounded bg-orange-700 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-800 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
               Hier Jobs Finden
             </Link>

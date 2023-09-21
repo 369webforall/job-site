@@ -12,9 +12,9 @@ const AboutSection = () => {
             <Image
               alt="picture of jobsearch"
               src={poster}
-              placeholder="blur"
-              className="absolute h-full w-full inset-0"
               fill
+              className="object-cover"
+              placeholder="blur"
             />
           </div>
           <div className="absolute top-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
