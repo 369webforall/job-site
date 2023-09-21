@@ -10,7 +10,7 @@ import {
 import Link from 'next/link';
 import { HiArrowLongRight } from 'react-icons/hi2';
 const CardPage = ({ job }) => {
-  const { title, description, company, details } = job;
+  const { title, description, company, details, link } = job;
   return (
     <Card className="lg:max-w-md w-full">
       <CardHeader>
@@ -21,7 +21,7 @@ const CardPage = ({ job }) => {
         <p>{description}</p>
       </CardContent>
       <CardFooter className="bg-orange-600 hover:bg-orange-800 flex items-center justify-end py-2">
-        <Link href="/jobs/id" className="text-white">
+        <Link href={`jobs/${link}`} className="text-white">
           <span className="flex gap-2 items-center">
             {details}
             <HiArrowLongRight />

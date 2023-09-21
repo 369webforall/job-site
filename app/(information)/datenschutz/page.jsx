@@ -13,19 +13,19 @@ const PrivacyPage = () => {
       </p>
 
       <p className="mt-4">
-        LD-Personalvermittlungs Gmbh
+        LD Personalvermittlungs GmbH
         <br />
-        Brößweg 29
+        Nickel Strasse 21,
         <br />
-        45897 Gelsenkirchen
+        33378 Rheda Wiederbruck
         <br />
         Deutschland
       </p>
 
       <p className="mt-4">
-        Tel.: +49 1516 3528444
+        Tel.: +49 179 7257337 / +49 15510 204189
         <br />
-        kontakt@ld-personalvermittlung.de
+        kontat@ld-personalvermittlung.de
         <br />
         <a
           href="http://www.ld-personalvermittlung.de"
@@ -288,8 +288,8 @@ const PrivacyPage = () => {
         (Secure Sockets Layer). Damit werden übertragene Daten geschützt und
         können nicht von Dritten gelesen werden. Sie können eine erfolgreiche
         Verschlüsselung daran erkennen, dass sich die Protokollbezeichnung im
-        der Statusleiste des Browsers von „http://“ in „https://“ ändert und
-        dass dort ein geschlossenes Schloss-Symbol sichtbar ist.
+        der Statusleiste des Browsers von http:// in https:// ändert und dass
+        dort ein geschlossenes Schloss-Symbol sichtbar ist.
       </p>
 
       <h2 className="mt-8 text-2xl font-semibold">Kontaktformular</h2>

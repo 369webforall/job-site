@@ -29,12 +29,15 @@ function Footer() {
               </h5>
               <ul className="mt-4 flex flex-col gap-3 text-gray-900">
                 <li className="mt-2">
-                  <Link href="/policy" className="opacity-75 hover:opacity-100">
+                  <Link
+                    href="/datenschutz"
+                    className="opacity-75 hover:opacity-100"
+                  >
                     Datenschutz
                   </Link>
                 </li>
                 <li className="mt-2">
-                  <Link href="/tmc" className="opacity-75 hover:opacity-100">
+                  <Link href="/agb" className="opacity-75 hover:opacity-100">
                     AGB
                   </Link>
                 </li>

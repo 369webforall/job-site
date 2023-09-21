@@ -13,7 +13,7 @@ export const jobData = [
     company: 'LD-Personalvermittlungs',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/jobs/id',
+    link: '/deliveryhelper',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const jobData = [
     description:
       'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/jobs/id',
+    link: '/truckdriver',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const jobData = [
     description:
       'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/jobs/id',
+    link: '/production',
   },
   {
     id: 4,
@@ -40,6 +40,6 @@ export const jobData = [
     description:
       'Lagermitarbeiter (Pick by Voice) auf verschiedenen Standorten je nach Bedarf des Kunden....',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/jobs/id',
+    link: '/warehouse',
   },
 ];

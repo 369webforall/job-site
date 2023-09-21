@@ -50,6 +50,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
+      <head>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async
+        ></script>
+      </head>
       <body>
         <Navbar />
         {children}

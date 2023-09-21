@@ -20,12 +20,12 @@ const HeroJob = () => {
         />
       </div>
 
-      <div className="absolute inset-0 bg-white/75 md:bg-transparent sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+      <div className="absolute inset-0 bg-white/75 md:bg-transparent md:from-white/95 md:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
-      <div className="absolute z-10 top-0 right-0 md:right-5 lg:right-20  mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:flex sm:h-[90vh] lg:h-[80vh] sm:items-start lg:items-center lg:px-8">
-        <div className="flex items-center justify-center mt-5 md:mt-15 py-4 max-w-xl  ltr:sm:text-left rtl:sm:text-right text-gray-900 font-roboto h-full ">
-          <div className="flex flex-col sm:items-center sm:justify-center  ">
-            <h1 className="text-2xl md:text-4xl font-thin  font-roboto text-center">
+      <div className="absolute z-10 top-0 right-0 2xl:right-40">
+        <div className=" text-gray-900 font-roboto h-full">
+          <div className="flex flex-col items-center justify-center h-[550px] 2xl:h-[750px]  p-2 ">
+            <h1 className="text-xl md:text-2xl xl:text-4xl font-thin  font-roboto text-center">
               Hier finden Sie unsere aktuellen <br /> Stellenangebote
             </h1>
 

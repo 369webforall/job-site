@@ -9,14 +9,17 @@ const Imprint = () => {
       <h1 className="text-2xl font-semibold mb-4">Imprint</h1>
       <p className="mb-4">LD Recruitment Agency</p>
       <p className="mb-4">Responsible editor</p>
-      <p className="mb-4">LD-Personalvermittlung GmbH</p>
-      <p className="mb-4">Brössweg 29</p>
-      <p className="mb-4">45897 Gelsenkirchen</p>
+      <p className="mb-2">LD Personalvermittlungs GmbH</p>
       <p className="mb-4">
-        Telephone: +49 1525 5312303 (according to the tariff for calls to the
-        German mobile network)
+        Nickel Strasse 21,
+        <br /> 33378 Rheda Wiederbruck
       </p>
-      <p className="mb-4">Email: kontakt@ld-personalvermittlung.de</p>
+
+      <p className="mb-4">
+        Telephone: +49 179 7257337 / +49 15510 204189 (according to the tariff
+        for calls to the German mobile network)
+      </p>
+      <p className="mb-4">Email: kontat@ld-personalvwerbung.de</p>
       <p className="mb-4">
         Responsible for the website: Lacramioara-Lili Cojocariu
       </p>

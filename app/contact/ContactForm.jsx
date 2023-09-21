@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6">
+    <div className="max-w-xl">
       <h2 className="text-2xl mb-4">Kontaktieren Sie uns</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
@@ -91,14 +91,14 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <div className="my-4">
-          <p>
+          <p className="text-sm">
             LD Personalvermittlung benötigt die Kontaktinformationen, die Sie
             uns zur Verfügung stellen, um Sie bezüglich unserer Produkte und
             Dienstleistungen zu kontaktieren. Sie können sich jederzeit von
             diesen Benachrichtigungen abmelden. Informationen zum Abbestellen
             sowie unsere Datenschutzpraktiken und unsere Verpflichtung zum
             Schutz Ihrer Privatsphäre finden Sie in unserer
-            <Link href="/policy" className="italic text-orange-600">
+            <Link href="/datenschutz" className="italic text-orange-600">
               Datenschutzerklärung.
             </Link>
           </p>
