@@ -9,9 +9,9 @@ const Logo = () => {
       <Image
         src={LogoImg}
         alt="logo"
-        fill
         sizes="100vw"
-        className="rounded-sm object-cover"
+        quality={100}
+        className="rounded-sm object-cover absolute h-full w-full inset-0"
       />
     </div>
   );

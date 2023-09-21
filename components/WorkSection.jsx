@@ -26,7 +26,9 @@ const WorkSection = () => {
                 <Image
                   src={delivery}
                   alt="technician"
-                  className="h-20 mx-auto object-contain "
+                  width={60}
+                  height={60}
+                  className="mx-auto object-contain"
                 />
 
                 <h4 className="text-base font-semibold mt-4 uppercase">
@@ -42,7 +44,9 @@ const WorkSection = () => {
                 <Image
                   src={deliveryVan}
                   alt="technician"
-                  className="h-20 mx-auto"
+                  width={60}
+                  height={60}
+                  className="mx-auto object-contain"
                 />
 
                 <h4 className="text-base font-semibold mt-4 uppercase">
@@ -58,7 +62,9 @@ const WorkSection = () => {
                 <Image
                   src={helper}
                   alt="technician"
-                  className="h-20 mx-auto object-contain"
+                  width={60}
+                  height={60}
+                  className="mx-auto object-contain"
                 />
 
                 <h4 className="text-base font-semibold mt-4 uppercase">
@@ -74,7 +80,9 @@ const WorkSection = () => {
                 <Image
                   src={forklift}
                   alt="technician"
-                  className="h-20 mx-auto object-contain"
+                  width={60}
+                  height={60}
+                  className="mx-auto object-contain"
                 />
                 <h4 className="text-base font-semibold mt-4 uppercase">
                   Lagerhelfer
