@@ -10,12 +10,14 @@ const AboutSection = () => {
         <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
           <div className="relative h-[250px] w-[600px] md:h-[400px] md:w-[600px]">
             <Image
-              className=""
               alt="hero"
+              loading="lazy"
+              decoding="async"
               src={poster}
               placeholder="blur"
-              fill
+              className="absolute h-full w-full inset-0"
               sizes="100vw"
+              fill
             />
           </div>
           <div className="absolute top-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
