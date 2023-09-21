@@ -216,6 +216,7 @@ function Footer() {
                     href="https://www.facebook.com/LDPersonalvermittlungGmbH"
                     target="_blank"
                     title="facebook"
+                    rel="noopener noreferrer"
                   >
                     <FaFacebook className="text-2xl" />
                   </a>
@@ -225,6 +226,7 @@ function Footer() {
                   <a
                     href="https://www.facebook.com/LDPersonalvermittlungGmbH"
                     target="_blank"
+                    rel="noopener noreferrer"
                     title="twitter"
                   >
                     <FaTwitter className="text-2xl" />
@@ -235,7 +237,8 @@ function Footer() {
                   <a
                     href="https://www.facebook.com/LDPersonalvermittlungGmbH"
                     target="_blank"
-                    title=""
+                    title="instagram"
+                    rel="noopener noreferrer"
                   >
                     <FaInstagram className="text-2xl" />
                   </a>
@@ -246,6 +249,7 @@ function Footer() {
                     href="https://www.facebook.com/LDPersonalvermittlungGmbH"
                     target="_blank"
                     title="youtube"
+                    rel="noopener noreferrer"
                   >
                     <FaYoutube className="text-2xl" />
                   </a>
