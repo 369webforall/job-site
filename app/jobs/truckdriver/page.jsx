@@ -1,7 +1,7 @@
 // components/SalesPage.js
 import React from 'react';
 
-const SalesPage = () => {
+const TruckDriver = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="container mx-auto p-6">
@@ -77,4 +77,4 @@ const SalesPage = () => {
   );
 };
 
-export default SalesPage;
+export default TruckDriver;
