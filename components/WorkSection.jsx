@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const WorkSection = () => {
   return (
-    <section className="text-gray-600 font-roboto bg-[#F1AF4B] ">
+    <section className="text-gray-900 font-roboto bg-orange-400 ">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="sm:text-4xl text-base font-medium font-sans mb-4 text-gray-900">

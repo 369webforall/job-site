@@ -35,7 +35,7 @@ const HeroSection = () => {
             <Link
               href="/jobs"
               role="link"
-              aria-label="Jobs suchen"
+              aria-label="Hier Jobs Finden"
               className="block w-full rounded bg-orange-700 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-800 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
               Hier Jobs Finden

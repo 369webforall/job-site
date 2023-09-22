@@ -13,6 +13,9 @@ const AboutSection = () => {
               alt="picture of jobsearch"
               src={poster}
               priority={true}
+              width={1600}
+              layout="responsive"
+              decoding="async"
               className="w-full h-full rounded-sm"
               as="image"
             />
@@ -32,7 +35,12 @@ const AboutSection = () => {
             Talenten.
           </p>
 
-          <Link href="/jobs" className="text-orange-700 p-2">
+          <Link
+            href="/jobs"
+            role="link"
+            aria-label="Hier Jobs Finden"
+            className="text-orange-700 p-2"
+          >
             <span className="flex gap-2 items-center text-lg">
               Hier Jobs Finden
               <HiArrowLongRight />
