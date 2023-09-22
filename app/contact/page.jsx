@@ -17,8 +17,8 @@ const Contact = () => {
           <ContactForm />
         </div>
 
-        <div className=" flex items-center  flex-col flex-1 ">
-          <h1 className="text-3xl font-semibold mb-4 text-orange-600 underline ">
+        <div className=" flex items-center flex-col flex-1 ">
+          <h1 className="text-3xl font-semibold mb-1 text-orange-600 underline ">
             Schedule a Meeting
           </h1>
 
