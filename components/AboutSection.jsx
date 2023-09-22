@@ -12,9 +12,9 @@ const AboutSection = () => {
             <Image
               alt="picture of jobsearch"
               src={poster}
-              fill
-              className="object-cover"
-              placeholder="blur"
+              priority={true}
+              className="w-full h-full rounded-sm"
+              as="image"
             />
           </div>
           <div className="absolute top-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
@@ -32,8 +32,8 @@ const AboutSection = () => {
             Talenten.
           </p>
 
-          <Link href="/jobs" className="text-orange-600  p-2">
-            <span className="flex gap-2 items-center">
+          <Link href="/jobs" className="text-orange-700 p-2">
+            <span className="flex gap-2 items-center text-lg">
               Hier Jobs Finden
               <HiArrowLongRight />
             </span>

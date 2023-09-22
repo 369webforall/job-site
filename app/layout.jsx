@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter, Roboto } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -17,7 +18,7 @@ const roboto = Roboto({
 export const metadata = {
   title: 'LD Personalvermittlung - Ihr Partner für Erfolg',
   description:
-    'LD-Personalvermittlungs GmbH: Ihr vertrauenswürdiger Partner für die Personalsuche. Wir verfügen über langjährige Erfahrung in der Direktvermittlung und bieten prompte und kostengünstige Personallösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Entdecken Sie unsere umfangreiche Auswahl an qualifiziertem Personal, von Pflegekräften bis zu Elektrikern, Bauarbeitern bis zu Zustellfahrern. Finden Sie noch heute Ihre ideale Arbeitskraft!',
+    'LD-Personalvermittlungs GmbH: Zuverlässiger Partner für die Personalvermittlung. Erfahrung in der Direktbeschaffung und maßgeschneiderten Lösungen. Finden Sie jetzt Ihre ideale Arbeitskraft!',
   keywords: [
     'personalvermittlung provision probezeit',
     'personalvermittlungsvertrag',
@@ -26,6 +27,19 @@ export const metadata = {
     'Personalvermittlung',
     'stellenvermittlung',
     'personalvermittlung vorteile nachteile',
+    'job über personalvermittlung erfahrung',
+    'bewerbung über personalvermittlung oder direct',
+    'personalvermittlung provision umgehen',
+    'vermittlungsprovision zeitarbeit',
+    'personalvermittlung provision probezeit',
+    'vermittlungsprovision personalvermittlung buchen',
+    'job über personalvermittlung erfahrung',
+    'job suchen',
+    'produktionsmitarbeiter',
+    'produktionshelfer',
+    'produktionshelfer gehalt',
+    'produktionshelfer stellenangebote',
+    'produktionshelfer tätigkeit',
     'Direktvermittlung',
     'Neue Mitarbeiter finden',
     'Pflegepersonal vermitteln',
@@ -50,13 +64,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
-      <head>
-        <script
-          type="text/javascript"
-          src="https://assets.calendly.com/assets/external/widget.js"
-          async
-        ></script>
-      </head>
+      <Head>
+        <meta charset="UTF-8" />
+      </Head>
       <body>
         <Navbar />
         {children}

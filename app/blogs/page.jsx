@@ -6,7 +6,7 @@ import blog3 from '@/public/assets/images/blog3.jpg';
 export const metadata = {
   title: 'LD Personalvermittlung - blogs',
   description:
-    'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
+    'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
 };
 const Blogs = () => {
   return (

@@ -18,8 +18,12 @@ function Footer() {
                 src={LogoImg}
                 alt="logo"
                 placeholder="blur"
-                fill
-                className="rounded-sm object-cover"
+                sizes="100vw"
+                quality={100}
+                className="rounded-sm object-cover absolute h-full w-full inset-0"
+                priority={true}
+                as="image"
+                loading="eager"
               />
             </div>
 

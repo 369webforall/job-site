@@ -9,9 +9,13 @@ const Logo = () => {
       <Image
         src={LogoImg}
         alt="logo"
+        placeholder="blur"
         sizes="100vw"
         quality={100}
         className="rounded-sm object-cover absolute h-full w-full inset-0"
+        priority={true}
+        as="image"
+        loading="eager"
       />
     </div>
   );
