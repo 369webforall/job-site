@@ -1,33 +1,49 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import axios from 'axios';
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
+  const [value, setValue] = useState({
     name: '',
     email: '',
     message: '',
     telephone: '',
   });
-
+  const [success, setSuccess] = useState(false);
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setValue({ ...value, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!value) return;
+    const formData = new FormData();
+    formData.append('name', value.name);
+    formData.append('email', value.email);
+    formData.append('telephone', value.telephone);
+    formData.append('message', value.message);
 
     try {
-      await axios.post('https://formspree.io/YOUR_FORMSPREE_ID', formData);
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        body: formData,
+      });
+      // handle the error
+      if (!res.ok) {
+        throw new Error(await res.text());
+      } else {
+        setSuccess(true);
+      }
 
-      // Optionally, you can handle success and error states here
-      // For example, show a success message to the user
-      alert('Message sent successfully!');
+      if (success) {
+        setValue({
+          name: '',
+          email: '',
+          message: '',
+          telephone: '',
+        });
+      }
     } catch (error) {
-      // Handle any errors that occur during the submission
-      console.error('Error:', error);
-      // Optionally, you can show an error message to the user
-      alert('An error occurred. Please try again later.');
+      console.error('Error sending email:', error);
     }
   };
 
@@ -43,7 +59,7 @@ const ContactForm = () => {
             type="text"
             id="name"
             name="name"
-            value={formData.name}
+            value={value.name}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
@@ -57,7 +73,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             name="email"
-            value={formData.email}
+            value={value.email}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
@@ -71,7 +87,7 @@ const ContactForm = () => {
             type="telephone"
             id="telephone"
             name="telephone"
-            value={formData.telephone}
+            value={value.telephone}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
@@ -84,7 +100,7 @@ const ContactForm = () => {
           <textarea
             id="message"
             name="message"
-            value={formData.message}
+            value={value.message}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded px-3 py-2"
             required
@@ -105,7 +121,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-yellow-700 text-white py-2 px-4 rounded hover:bg-yellow-900 transition-colors"
+          className="bg-orange-400 text-white py-2 px-4 mt-4 rounded hover:bg-orange-500 transition-colors"
         >
           EINSENDEN
         </button>

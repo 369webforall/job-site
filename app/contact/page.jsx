@@ -9,7 +9,7 @@ export const metadata = {
 };
 const Contact = () => {
   return (
-    <div className="max-w-[90%] mx-auto px-10 py-10">
+    <div className="max-w-[90%] mx-auto px-10 py-10 md:my-20">
       <div className="flex flex-col gap-10 lg:flex-row">
         <Address />
 
@@ -18,19 +18,12 @@ const Contact = () => {
         </div>
 
         <div className=" flex items-center flex-col flex-1 ">
-          <h1 className="text-3xl font-semibold mb-1 text-orange-600 underline ">
+          <h1 className="text-3xl font-sans   mb-1 text-orange-600">
             Schedule a Meeting
           </h1>
 
           <Calendly />
         </div>
-      </div>
-
-      <div>
-        {/* <div className="container mx-auto mt-8">
-          <h1 className="text-2xl font-semibold mb-4">Google Map</h1>
-          <GoogleMapComponent />
-        </div> */}
       </div>
     </div>
   );

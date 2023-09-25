@@ -2,27 +2,60 @@
 import React, { useState } from 'react';
 
 const ApplyNowForm = () => {
-  const [formData, setFormData] = useState({
+  const [file, setFile] = useState(null);
+  const [success, setSuccess] = useState(false);
+  const [value, setValue] = useState({
     surname: '',
-    address: '',
+    telephone: '',
     email: '',
     applicationAs: '',
-    applicationDocuments: '',
     comment: '',
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setValue((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+  const handleFileChange = (e) => {
+    // Handle file input change
+
+    setFile(e.target.files[0]);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to a server)
-    console.log(formData);
+    if (!value) return;
+    const formData = new FormData();
+    formData.append('surname', value.surname);
+    formData.append('email', value.email);
+    formData.append('telephone', value.telephone);
+    formData.append('applicationAs', value.applicationAs);
+    formData.append('comment', value.comment);
+    formData.append('attachment', file);
+    try {
+      const res = await fetch('/api/jobs', {
+        method: 'POST',
+        body: formData,
+      });
+      // handle the error
+      if (!res.ok) {
+        throw new Error(await res.text());
+      } else {
+        setSuccess(true);
+      }
+
+      if (success) {
+        setValue({
+          surname: '',
+          telephone: '',
+          email: '',
+          applicationAs: '',
+          comment: '',
+        });
+        setFile(null);
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   };
 
   return (
@@ -37,7 +70,7 @@ const ApplyNowForm = () => {
             type="text"
             id="surname"
             name="surname"
-            value={formData.surname}
+            value={value.surname}
             onChange={handleChange}
             className="w-full border rounded-md p-2"
             required
@@ -45,13 +78,13 @@ const ApplyNowForm = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="address" className="block text-gray-600 font-medium">
-            Address:
+            Telephone:
           </label>
           <input
             type="text"
-            id="address"
-            name="address"
-            value={formData.address}
+            id="telephone"
+            name="telephone"
+            value={value.telephone}
             onChange={handleChange}
             className="w-full border rounded-md p-2"
             required
@@ -65,7 +98,7 @@ const ApplyNowForm = () => {
             type="email"
             id="email"
             name="email"
-            value={formData.email}
+            value={value.email}
             onChange={handleChange}
             className="w-full border rounded-md p-2"
             required
@@ -82,7 +115,7 @@ const ApplyNowForm = () => {
             type="text"
             id="applicationAs"
             name="applicationAs"
-            value={formData.applicationAs}
+            value={value.applicationAs}
             onChange={handleChange}
             className="w-full border rounded-md p-2"
             required
@@ -90,19 +123,17 @@ const ApplyNowForm = () => {
         </div>
         <div className="mb-4">
           <label
-            htmlFor="applicationDocuments"
+            htmlFor="attachment"
             className="block text-gray-600 font-medium"
           >
             Application Documents:
           </label>
           <input
             type="file"
-            id="applicationDocuments"
-            name="applicationDocuments"
-            value={formData.applicationDocuments}
-            onChange={handleChange}
+            id="attachment"
+            name="attachment"
+            onChange={handleFileChange}
             className="w-full border rounded-md p-2"
-            required
           />
         </div>
         <div className="mb-4">
@@ -112,7 +143,7 @@ const ApplyNowForm = () => {
           <textarea
             id="comment"
             name="comment"
-            value={formData.comment}
+            value={value.comment}
             onChange={handleChange}
             className="w-full border rounded-md p-2"
             rows="4"
@@ -121,7 +152,7 @@ const ApplyNowForm = () => {
         <div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className="bg-orange-500 text-white px-4 py-2 rounded-md text-lg"
           >
             Submit
           </button>

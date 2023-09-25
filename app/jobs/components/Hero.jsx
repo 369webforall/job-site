@@ -25,14 +25,14 @@ const HeroJob = () => {
       <div className="absolute z-10 top-0 right-0 2xl:right-40">
         <div className=" text-gray-900 font-roboto h-full">
           <div className="flex flex-col items-center justify-center h-[550px] 2xl:h-[750px]  p-2 ">
-            <h1 className="text-xl md:text-2xl xl:text-4xl font-thin  font-roboto text-center">
+            <h1 className="text-xl md:text-2xl xl:text-4xl font-thin  font-sans text-center">
               Hier finden Sie unsere aktuellen <br /> Stellenangebote
             </h1>
 
             <div className="my-8 flex items-center justify-center">
               <Link
                 href="/contact"
-                className="  rounded bg-orange-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto "
+                className="  rounded bg-orange-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-600 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto "
               >
                 Book a metting
               </Link>
