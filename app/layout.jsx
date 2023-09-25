@@ -68,6 +68,7 @@ export default function RootLayout({ children }) {
       <GoogleAnalytics />
       <Head>
         <meta charset="UTF-8" />
+        {/* Google search console */}
         <meta
           name="google-site-verification"
           content="B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk"
