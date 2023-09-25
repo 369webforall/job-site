@@ -59,6 +59,7 @@ export const metadata = {
     'Erntehelfer vermitteln',
     'Landwirtschaftliche Mitarbeiter suchen',
   ],
+  'google-site-verification': 'XyaDqdZhB9E4ROQlin1d9i3OZijzkB0M6zTT2mOgoxk',
 };
 
 export default function RootLayout({ children }) {
@@ -66,10 +67,6 @@ export default function RootLayout({ children }) {
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
       <Head>
         <meta charset="UTF-8" />
-        <meta
-          name="google-site-verification"
-          content="XyaDqdZhB9E4ROQlin1d9i3OZijzkB0M6zTT2mOgoxk"
-        />
       </Head>
       <body>
         <Navbar />
