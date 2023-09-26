@@ -67,11 +67,6 @@ export default function RootLayout({ children }) {
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
       <Head>
         <meta charset="UTF-8" />
-        {/* Google search console */}
-        <meta
-          name="google-site-verification"
-          content="B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk"
-        />
       </Head>
       <body>
         <Navbar />
