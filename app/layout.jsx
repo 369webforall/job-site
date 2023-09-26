@@ -4,7 +4,6 @@ import { Inter, Roboto } from 'next/font/google';
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Head from 'next/head';
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -61,17 +60,14 @@ export const metadata = {
     'Erntehelfer vermitteln',
     'Landwirtschaftliche Mitarbeiter suchen',
   ],
+  verification: {
+    google: 'B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk"
-        />
-      </Head>
       <body>
         <GoogleAnalytics />
         <Navbar />
