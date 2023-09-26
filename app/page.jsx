@@ -15,10 +15,6 @@ export default function Home() {
           href="https://www.ldpersonalvermittlung.com/"
           key="canonical"
         />
-        <meta
-          name="google-site-verification"
-          content="B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk"
-        />
       </Head>
       <HeroSection />
       <AboutSection />
