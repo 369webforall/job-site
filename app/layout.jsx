@@ -1,6 +1,6 @@
 import './globals.css';
 import { Inter, Roboto } from 'next/font/google';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Head from 'next/head';
@@ -65,7 +65,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
-      <GoogleAnalytics />
       <Head>
         <meta charset="UTF-8" />
         {/* Google search console */}
