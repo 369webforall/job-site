@@ -1,4 +1,5 @@
 import './globals.css';
+import GoogleAnalytics from './GoogleAnalytics';
 import { Inter, Roboto } from 'next/font/google';
 
 import Navbar from '@/components/Navbar';
@@ -72,6 +73,7 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body>
+        <GoogleAnalytics />
         <Navbar />
         {children}
         <Footer />

@@ -3,7 +3,7 @@ import HeroSection from '@/components/Hero';
 import AboutSection from '@/components/AboutSection';
 import WorkSection from '@/components/WorkSection';
 import SectionComponent from '@/components/SectionComponent';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import GoogleAnalytics from '@/app/GoogleAnalytics';
 import Head from 'next/head';
 export default function Home() {
   return (
