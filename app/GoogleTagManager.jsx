@@ -7,6 +7,8 @@ export default function GoogleTagManager() {
     <>
       {/* Google Tag Manager */}
       <Script
+        async
+        defer
         id="GTM-K2JKKDSP"
         dangerouslySetInnerHTML={{
           __html: `
