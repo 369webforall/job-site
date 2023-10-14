@@ -71,22 +71,6 @@ export default function RootLayout({ children }) {
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
       <Head>
         <GoogleTagManager />
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs/deliveryhelper"
-          key="canonical"
-        />
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs/truckdriver"
-          key="canonical"
-        />
-
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs"
-          key="canonical"
-        />
       </Head>
       <body>
         <iframe
