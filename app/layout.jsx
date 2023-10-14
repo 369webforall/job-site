@@ -84,22 +84,7 @@ export default function RootLayout({ children }) {
 
         <link
           rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs/production"
-          key="canonical"
-        />
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs/warehouse"
-          key="canonical"
-        />
-        <link
-          rel="canonical"
           href="https://www.ldpersonalvermittlung.com/jobs"
-          key="canonical"
-        />
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/blogs"
           key="canonical"
         />
       </Head>
