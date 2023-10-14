@@ -108,6 +108,7 @@ export default function RootLayout({ children }) {
           src="https://www.googletagmanager.com/ns.html?id=GTM-K2JKKDSP"
           height="0"
           width="0"
+          title="Google Tag Manager"
         ></iframe>
         <GoogleAnalytics />
 

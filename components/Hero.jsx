@@ -17,6 +17,7 @@ const HeroSection = () => {
           fill
           className="object-cover block"
           as="image"
+          loading="eager"
         />
       </div>
 
