@@ -14,6 +14,7 @@ const AboutSection = () => {
               src={poster}
               priority={true}
               width={640}
+              height={360}
               decoding="async"
               className="w-full h-full rounded-sm"
               as="image"
