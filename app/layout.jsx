@@ -1,7 +1,8 @@
 import './globals.css';
 import GoogleAnalytics from './GoogleAnalytics';
 import { Inter, Roboto } from 'next/font/google';
-
+import GoogleTagManager from './GoogleTagManager';
+import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 const inter = Inter({
@@ -68,8 +69,48 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
+      <Head>
+        <GoogleTagManager />
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/jobs/deliveryhelper"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/jobs/truckdriver"
+          key="canonical"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/jobs/production"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/jobs/warehouse"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/jobs"
+          key="canonical"
+        />
+        <link
+          rel="canonical"
+          href="https://www.ldpersonalvermittlung.com/blogs"
+          key="canonical"
+        />
+      </Head>
       <body>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-K2JKKDSP"
+          height="0"
+          width="0"
+        ></iframe>
         <GoogleAnalytics />
+
         <Navbar />
         {children}
         <Footer />
