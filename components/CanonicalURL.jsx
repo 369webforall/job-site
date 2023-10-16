@@ -1,11 +1,14 @@
+'use client';
 import Head from 'next/head';
 import { useRouter } from 'next/navigation';
 
-export default function CanonicalURL() {
-  const siteUrl = 'https://www.ldpersonalvermittlung.com/';
+function CanonicalURL() {
+  const siteUrl = 'https://www.ldpersonalvermittlung.com';
   const router = useRouter();
-  const cleanPath = router.asPath.split('#')[0].split('?')[0];
-  const canonicalUrl = `${siteUrl}` + (router.asPath === '/' ? '' : cleanPath);
+  const cleanPath = router.asPath
+    ? router.asPath.split('#')[0].split('?')[0]
+    : '';
+  const canonicalUrl = `${siteUrl}${router.asPath === '/' ? '' : cleanPath}`;
 
   return (
     <Head>
@@ -13,3 +16,5 @@ export default function CanonicalURL() {
     </Head>
   );
 }
+
+export default CanonicalURL;
