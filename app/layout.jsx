@@ -64,6 +64,7 @@ export const metadata = {
   verification: {
     google: 'B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk',
   },
+  canonical: 'https://www.ldpersonalvermittlung.com',
 };
 
 export default function RootLayout({ children }) {

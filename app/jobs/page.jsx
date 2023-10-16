@@ -4,17 +4,22 @@ import Category from './components/Category';
 import Accordian from './components/Accordian';
 import Faq from './components/Faq';
 
-import CanonicalURL from '@/components/CanonicalURL';
-export const metadata = {
-  title: 'LD Personalvermittlung - jobs',
-  description:
-    'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
-};
+export async function generateMetadata() {
+  const siteURL = 'https://www.ldpersonalvermittlung.com';
+
+  return {
+    title: 'LD Personalvermittlung - jobs',
+    description:
+      'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote, produktionshelfer tätigkeit',
+    alternates: {
+      canonical: `${siteURL}/jobs`,
+    },
+  };
+}
+
 const Jobs = () => {
   return (
     <div>
-      <CanonicalURL />
-
       <Hero />
       <Category />
       <Accordian />

@@ -4,17 +4,21 @@ import blog1 from '@/public/assets/images/blog1.jpg';
 import blog2 from '@/public/assets/images/blog2.jpg';
 import blog3 from '@/public/assets/images/blog3.jpg';
 
-import CanonicalURL from '@/components/CanonicalURL';
-export const metadata = {
-  title: 'LD Personalvermittlung - blogs',
-  description:
-    'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
-};
+export async function generateMetadata() {
+  const siteURL = 'https://www.ldpersonalvermittlung.com';
+
+  return {
+    title: 'LD Personalvermittlung - blogs',
+    description:
+      'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote,produktionshelfer tätigkeit',
+    alternates: {
+      canonical: `${siteURL}/blogs`,
+    },
+  };
+}
 const Blogs = () => {
   return (
     <>
-      <CanonicalURL />
-
       <section className="text-gray-600 font-roboto">
         <div className="container mx-auto flex px-1 pb-5 md:flex-row flex-col items-center">
           <div className="relative lg:max-w-2xl  md:w-1/2 mb-10 md:mb-0 ">
