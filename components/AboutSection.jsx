@@ -13,8 +13,8 @@ const AboutSection = () => {
               alt="picture of jobsearch"
               src={poster}
               priority={true}
-              width={640}
-              height={360}
+              width={600}
+              height={400}
               decoding="async"
               className="w-full h-full rounded-sm"
               placeholder="blur"
