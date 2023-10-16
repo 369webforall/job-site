@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/bg-image.jpg';
+import heroImage from '@/public/assets/images/bg-image.png';
 import Link from 'next/link';
 const HeroSection = () => {
   return (
@@ -13,6 +13,7 @@ const HeroSection = () => {
           alt="hero image"
           placeholder="blur"
           quality={100}
+          priority={true}
           sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
           fill
           className="object-cover block"

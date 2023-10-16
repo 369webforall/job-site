@@ -8,7 +8,7 @@ const AboutSection = () => {
     <section className="relative text-gray-800 md:py-12">
       <div className="w-full md:container mx-auto  px-1 py-10 flex flex-col  md:flex-row items-center justify-between gap-10">
         <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
-          <div className="relative h-[250px] w-[600px] md:h-[400px] md:w-[600px]">
+          <div className="relative h-[400px] md:w-[600px]">
             <Image
               alt="picture of jobsearch"
               src={poster}
@@ -17,6 +17,7 @@ const AboutSection = () => {
               height={360}
               decoding="async"
               className="w-full h-full rounded-sm"
+              placeholder="blur"
               as="image"
             />
           </div>

@@ -4,6 +4,7 @@ import blog1 from '@/public/assets/images/blog1.jpg';
 import blog2 from '@/public/assets/images/blog2.jpg';
 import blog3 from '@/public/assets/images/blog3.jpg';
 import Head from 'next/head';
+import CanonicalURL from '@/components/CanonicalURL';
 export const metadata = {
   title: 'LD Personalvermittlung - blogs',
   description:
@@ -13,11 +14,7 @@ const Blogs = () => {
   return (
     <>
       <Head>
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/blogs"
-          key="canonical"
-        />
+        <CanonicalURL />
       </Head>
       <section className="text-gray-600 font-roboto">
         <div className="container mx-auto flex px-1 pb-5 md:flex-row flex-col items-center">

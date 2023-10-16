@@ -4,6 +4,7 @@ import Category from './components/Category';
 import Accordian from './components/Accordian';
 import Faq from './components/Faq';
 import Head from 'next/head';
+import CanonicalURL from '@/components/CanonicalURL';
 export const metadata = {
   title: 'LD Personalvermittlung - jobs',
   description:
@@ -13,11 +14,7 @@ const Jobs = () => {
   return (
     <div>
       <Head>
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/jobs"
-          key="canonical"
-        />
+        <CanonicalURL />
       </Head>
       <Hero />
       <Category />

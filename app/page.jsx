@@ -5,17 +5,14 @@ import WorkSection from '@/components/WorkSection';
 import SectionComponent from '@/components/SectionComponent';
 import GoogleAnalytics from '@/app/GoogleAnalytics';
 import Head from 'next/head';
+import CanonicalURL from '@/components/CanonicalURL';
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <GoogleAnalytics />
       <Head>
-        <link
-          rel="canonical"
-          href="https://www.ldpersonalvermittlung.com/"
-          key="canonical"
-        />
+        <CanonicalURL />
       </Head>
+      <GoogleAnalytics />
       <HeroSection />
       <AboutSection />
       <WorkSection />
