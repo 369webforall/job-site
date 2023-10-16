@@ -12,7 +12,7 @@ function CanonicalURL() {
 
   return (
     <Head>
-      <link rel="canonical" href={canonicalUrl} />
+      <link rel="canonical" href={canonicalUrl} key="canonical" />
     </Head>
   );
 }
