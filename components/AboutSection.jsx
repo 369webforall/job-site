@@ -5,10 +5,10 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 import Link from 'next/link';
 const AboutSection = () => {
   return (
-    <section className="relative text-gray-800 md:py-12">
-      <div className="w-full md:container mx-auto  px-1 py-10 flex flex-col  md:flex-row items-center justify-between gap-10">
+    <section className="relative text-gray-800 lg:py-12">
+      <div className="w-full lg:container mx-auto  px-1 py-10 flex flex-col  lg:flex-row items-center justify-between gap-10">
         <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
-          <div className="relative h-[400px] md:w-[600px]">
+          <div className="relative">
             <Image
               a
               alt="picture of jobsearch"
@@ -27,7 +27,7 @@ const AboutSection = () => {
           <div className="absolute top-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
           <div className="absolute bottom-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-12 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="lg:flex-grow lg:w-1/2 lg:pl-12 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
           <h2 className="text-3xl md:text-5xl font-thin font-sans mb-6  text-gray-900 text-center ">
             Finde Deinen neuen Job!
           </h2>
