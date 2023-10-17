@@ -4,7 +4,7 @@ const Address = () => {
   return (
     <div className="bg-orange-100 flex flex-col self-start p-4 bg-gradient-to-r from-orange-400 md:from-yellow-500">
       <h1 className="text-2xl uppercase tracking-wider font-roboto font-semibold text-orange-900">
-        Contact Details
+        KONTAKTDETAILS
       </h1>
       <div>
         <ul className="mt-4">

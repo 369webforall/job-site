@@ -19,7 +19,7 @@ const Contact = () => {
 
         <div className=" flex items-center flex-col flex-1 ">
           <h1 className="text-3xl font-sans   mb-1 text-orange-600">
-            Schedule a Meeting
+            Ein Meeting Planen
           </h1>
 
           <Calendly />

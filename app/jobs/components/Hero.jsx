@@ -34,7 +34,7 @@ const HeroJob = () => {
                 href="/contact"
                 className="  rounded bg-orange-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-600 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto "
               >
-                Book a metting
+                Ein Meeting Buchen
               </Link>
             </div>
           </div>

@@ -81,7 +81,7 @@ function Footer() {
                     href="/contact"
                     className="opacity-75 hover:opacity-100"
                   >
-                    Contact
+                    Kontakt
                   </Link>
                 </li>
               </ul>
