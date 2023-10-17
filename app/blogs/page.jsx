@@ -47,7 +47,7 @@ const Blogs = () => {
             von LD Personalvermittlung und wie sie Ihnen bei Ihrer Karriere oder
             Ihrem Unternehmen helfen können.
           </p>
-          <h2 className="sm:text-3xl text-2xl mt-8 font-roboto text-gray-900">
+          <h2 className="sm:text-3xl text-2xl mt-8 mb-10 font-roboto text-gray-900">
             Die Kosten für Personalvermittlung
           </h2>
           <p class=" leading-relaxed text-lg font-roboto">

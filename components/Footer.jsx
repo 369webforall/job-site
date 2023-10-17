@@ -93,7 +93,7 @@ function Footer() {
           <div className="flex flex-col md:flex-row justify-between max-w-container mx-auto">
             <div className=" w-full lg:flex-1 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
               <h2 className="uppercase tracking-wider font-semibold text-gray-400">
-                Contact Details
+                Kontakt Details
               </h2>
               <div className="flex flex-col md:flex-row justify-between gap-6">
                 <ul className="mt-4 flex flex-col md:flex-row gap-6 justify-around flex-1">
@@ -141,7 +141,7 @@ function Footer() {
                       <span className="ml-3">
                         Mon - Fri: 9:00 - 19:00
                         <br />
-                        Closed on Weekends
+                        Am Wochenende Geschlossen
                       </span>
                     </Link>
                   </li>

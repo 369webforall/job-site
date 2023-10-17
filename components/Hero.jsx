@@ -2,51 +2,45 @@
 import React from 'react';
 import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/bg-image.png';
+import heroImage from '@/public/assets/images/hero.jpg';
 import Link from 'next/link';
 const HeroSection = () => {
   return (
-    <section className="relative">
-      <div className="relative h-[100vh] sm:h-[90vh] lg:h-[80vh]">
-        <Image
-          src={heroImage}
-          alt="hero image"
-          placeholder="blur"
-          quality={100}
-          priority={true}
-          sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw"
-          fill
-          className="object-cover block"
-          as="image"
-          loading="eager"
-        />
-      </div>
-
-      <div className="absolute inset-0 bg-white/60 md:bg-transparent sm:from-white/70 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
-
-      <div className="absolute z-10 top-0 left-0 md:left-10 lg:left-[136px]  mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:flex sm:h-[90vh] lg:h-[80vh] sm:items-start lg:items-center lg:px-8">
-        <div className="mt-5 md:mt-15 py-4 max-w-xl  ltr:sm:text-left rtl:sm:text-right text-gray-950 font-roboto ">
-          <h1 className="text-4xl md:text-6xl font-thin font-sans">
+    <section className="text-gray-600 body-font">
+      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="font-roboto sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Sie suchen - wir vermitteln
           </h1>
-
           <p className="mt-4 max-w-lg md:text-xl/relaxed">
             Ihre Vorteile durch unsere Vermittlung
           </p>
-          <div className="my-8 flex flex-wrap gap-4 text-center">
+          <p className="mb-8 mt-8 leading-relaxed">
+            Sie möchten die Vorteile einer Personalvermittlung nutzen oder haben
+            Fragen? Wir freuen uns und sind gern für Sie da.
+          </p>
+          <div className="flex justify-center">
             <Link
-              href="/jobs"
+              href="/contact"
               role="link"
               aria-label="Hier Jobs Finden"
               className="block w-full rounded bg-orange-700 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-800 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
-              Hier Jobs Finden
+              Ein Meeting Buchen
             </Link>
           </div>
-          <p className="mt-20 max-w-lg md:text-xl/relaxed">
-            Sie möchten die Vorteile einer Personalvermittlung nutzen oder haben
-            Fragen? Wir freuen uns und sind gern für Sie da.
-          </p>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <Image
+            src={heroImage}
+            className="object-cover object-center rounded"
+            alt="hero"
+            as="image"
+            loading="eager"
+            placeholder="blur"
+            quality={100}
+            priority={true}
+          />
         </div>
       </div>
     </section>
