@@ -193,7 +193,7 @@ function Footer() {
 
             <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
               <h2 className="uppercase tracking-wider font-semibold text-gray-400">
-                Social Contact
+                Social Kontakt
               </h2>
               <ul className="mt-4 flex">
                 <li>
