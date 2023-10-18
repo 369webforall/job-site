@@ -9,7 +9,7 @@ export default function GoogleTagManager() {
       <Script
         async
         defer
-        id="GTM-K2JKKDSP"
+        id="G-1FE30CX6B2"
         dangerouslySetInnerHTML={{
           __html: `
             (function(w,d,s,l,i){
@@ -19,7 +19,7 @@ export default function GoogleTagManager() {
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
               j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
               f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-K2JKKDSP');
+            })(window,document,'script','dataLayer','G-1FE30CX6B2');
           `,
         }}
       />

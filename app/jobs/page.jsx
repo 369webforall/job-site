@@ -8,9 +8,10 @@ export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
 
   return {
-    title: 'LD Personalvermittlung - jobs',
+    title:
+      'Bewerben Sie sich jetzt auf unsere aktuellen Stellenangebote | LD Personalvermittlung',
     description:
-      'vermittlungsprovision personalvermittlung buchen,job über personalvermittlung erfahrung,job suchen,produktionsmitarbeiter,produktionshelfer,produktionshelfer gehalt,produktionshelfer stellenangebote, produktionshelfer tätigkeit',
+      'Entdecken Sie spannende Karrieremöglichkeiten bei LD Personalvermittlung. Wir bieten vielfältige Jobangebote in verschiedenen Branchen. Bewerben Sie sich noch heute und starten Sie Ihre berufliche Zukunft mit uns.',
     alternates: {
       canonical: `${siteURL}/jobs`,
     },

@@ -6,27 +6,32 @@ import heroImage from '@/public/assets/images/hero-job.jpg';
 import Link from 'next/link';
 const HeroJob = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+    <section className="bg-slate-100 p-5 font-roboto">
+      <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto mt-10 space-y-0 lg:space-y-0">
+        <div className="w-full lg:w-1/2 ">
           <Image
+            src={heroImage}
             className="object-cover object-center rounded"
             alt="hero"
+            as="image"
+            loading="eager"
             placeholder="blur"
             quality={100}
-            loading="eager"
-            src={heroImage}
+            priority={true}
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 className="font-roboto sm:text-4xl text-3xl mb-4 font-medium text-gray-700">
+        <div className="flex flex-col mb-16 space-y-12 lg:w-1/2">
+          <h1 className="text-3xl font-sans font-thin text-center lg:text-4xl lg:text-left">
             Hier finden Sie unsere aktuellen <br /> Stellenangebote
           </h1>
-          <p className="mb-8 leading-relaxed"></p>
-          <div className="flex justify-center">
+          {/* <p className="max-w-lg text-center text-slate-500 lg:text-left"></p> */}
+
+          <div className="flex items-center lg:items-start">
             <Link
               href="/jobs"
-              className="  rounded bg-orange-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-orange-600 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto "
+              role="link"
+              aria-label="Hier Jobs Finden"
+              className="block mx-auto lg:mx-0 rounded bg-orange-600 px-6 py-3 text-lg font-medium text-white shadow hover:bg-orange-800 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto transition-colors"
             >
               Hier Jobs Finden
             </Link>

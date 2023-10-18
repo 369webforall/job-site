@@ -49,7 +49,7 @@ const ContactForm = () => {
 
   return (
     <div className="max-w-xl">
-      <h1 className="text-2xl mb-4">Kontaktieren Sie uns</h1>
+      <h1 className="text-3xl mb-4 font-sans">Kontaktieren Sie uns</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="name">
@@ -121,7 +121,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-orange-400 text-white py-2 px-4 mt-4 rounded hover:bg-orange-500 transition-colors"
+          className="bg-orange-600 text-white py-3 px-6 mt-4 rounded hover:bg-orange-800 transition-colors"
         >
           EINSENDEN
         </button>

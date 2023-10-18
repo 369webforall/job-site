@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -28,9 +27,9 @@ function Footer() {
             </div>
 
             <div className="col-start-1 md:col-start-5 col-span-4">
-              <h2 className="uppercase tracking-wider font-semibold text-gray-700">
+              <h3 className="uppercase tracking-wider font-semibold text-gray-700">
                 Weitere Informationen
-              </h2>
+              </h3>
               <ul className="mt-4 flex flex-col gap-3 text-gray-900">
                 <li className="mt-2">
                   <Link
@@ -57,9 +56,9 @@ function Footer() {
             </div>
 
             <div className="col-start-1 md:col-start-11 col-span-2">
-              <h2 className="uppercase tracking-wider font-semibold text-gray-700">
-                Visit
-              </h2>
+              <h3 className="uppercase tracking-wider font-semibold text-gray-700">
+                Besuchen
+              </h3>
               <ul className="mt-4 flex flex-col gap-3 ">
                 <li className="mt-2">
                   <Link href="/" className="opacity-75 hover:opacity-100">
@@ -92,9 +91,9 @@ function Footer() {
         <div className="bg-gray-900 text-white px-4 sm:px-6 lg:px-16 py-6">
           <div className="flex flex-col md:flex-row justify-between max-w-container mx-auto">
             <div className=" w-full lg:flex-1 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-              <h2 className="uppercase tracking-wider font-semibold text-gray-400">
+              <h4 className="uppercase tracking-wider font-semibold text-gray-400">
                 Kontakt Details
-              </h2>
+              </h4>
               <div className="flex flex-col md:flex-row justify-between gap-6">
                 <ul className="mt-4 flex flex-col md:flex-row gap-6 justify-around flex-1">
                   <li>
@@ -192,9 +191,9 @@ function Footer() {
             </div>
 
             <div className="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
-              <h2 className="uppercase tracking-wider font-semibold text-gray-400">
+              <h4 className="uppercase tracking-wider font-semibold text-gray-400">
                 Social Kontakt
-              </h2>
+              </h4>
               <ul className="mt-4 flex">
                 <li>
                   <a
