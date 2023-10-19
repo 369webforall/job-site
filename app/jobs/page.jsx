@@ -9,7 +9,7 @@ export async function generateMetadata() {
 
   return {
     title:
-      'Bewerben Sie sich jetzt auf unsere aktuellen Stellenangebote | LD Personalvermittlung',
+      'Bewerben Sie sich jetzt auf unsere Stellenangebote | LD Personalvermittlung',
     description:
       'Entdecken Sie spannende Karrieremöglichkeiten bei LD Personalvermittlung. Wir bieten vielfältige Jobangebote in verschiedenen Branchen. Bewerben Sie sich noch heute und starten Sie Ihre berufliche Zukunft mit uns.',
     alternates: {

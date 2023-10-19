@@ -7,7 +7,7 @@ import Link from 'next/link';
 const HeroJob = () => {
   return (
     <section className="bg-slate-100 p-5 font-roboto">
-      <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto mt-10 space-y-0 lg:space-y-0">
+      <div className="container flex flex-col gap-14 lg:flex-row lg:gap-40 items-center justify-between px-6 mx-auto my-10 space-y-0 lg:space-y-0">
         <div className="w-full lg:w-1/2 ">
           <Image
             src={heroImage}

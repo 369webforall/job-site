@@ -11,7 +11,7 @@ const JobDetails = () => {
   };
 
   return (
-    <section className="p-5 font-roboto">
+    <section className=" mb-10 p-5 font-roboto">
       <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto mt-10 space-y-0 lg:space-y-0">
         <div className="w-full lg:w-1/2 ">
           <Image
@@ -51,7 +51,7 @@ const JobDetails = () => {
               </p>
               <p className="max-w-2xl text-center text-slate-500 lg:text-left">
                 Zuverlässigkeit: Verlassen Sie sich auf unsere Erfahrung und
-                Professionalität – wir stehen für zuverlässige Vermittlungen.
+                Professionalität - wir stehen für zuverlässige Vermittlungen.
               </p>
               <p className="max-w-2xl text-center text-slate-500 lg:text-left">
                 Kundenzufriedenheit: Ihre Zufriedenheit ist unsere Priorität.
@@ -81,14 +81,14 @@ const JobDetails = () => {
                 Haben Sie Fragen oder möchten Sie mehr über unsere
                 Dienstleistungen erfahren? Wir sind hier, um Ihnen zu helfen.
                 Kontaktieren Sie uns noch heute und lassen Sie uns gemeinsam die
-                passenden Mitarbeiter für Ihr Unternehmen finden.
+                passenden Mitarbeiter für Ihr Unternehmen finden.
               </p>
             </>
           ) : null}
 
           <button
             onClick={toggleReadMore}
-            className="text-orange-600 hover:underline mt-4"
+            className="text-orange-600 hover:underline mt-4 text-left"
           >
             {isExpanded ? 'Hide Text' : 'Read More'}
           </button>

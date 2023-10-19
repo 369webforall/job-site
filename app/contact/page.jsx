@@ -7,8 +7,7 @@ export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
 
   return {
-    title:
-      'Kontaktieren Sie Uns - LD Personalvermittlung | Fragen, Anfragen Zusammenarbeit',
+    title: 'Kontaktieren Sie Uns - LD Personalvermittlung | Fragen, Anfragen',
     description:
       'Haben Sie Fragen oder möchten Sie mit uns zusammenarbeiten? Kontaktieren Sie LD Personalvermittlung für professionelle Personalberatung und Karriereunterstützung. Wir freuen uns darauf, von Ihnen zu hören',
     alternates: {
@@ -28,9 +27,9 @@ const Contact = () => {
         </div>
 
         <div className="flex items-center flex-col flex-1  ">
-          <h1 className="text-3xl font-sans   mb-2 text-orange-600">
+          <h2 className="text-3xl font-sans   mb-2 text-orange-600">
             Ein Meeting Planen
-          </h1>
+          </h2>
 
           <Calendly />
         </div>
