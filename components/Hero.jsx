@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section className="font-roboto">
       <div className=" flex flex-col-reverse gap-5 lg:flex-row items-center  mb-10  space-y-0 md:space-y-0">
-        <div className="flex flex-col mb-16 space-y-12 lg:w-1/2 lg:pl-44">
+        <div className="flex flex-col mb-8 space-y-12 lg:w-1/2 lg:pl-44">
           <h1 className="max-w-xl font-sans text-4xl font-thin text-center lg:text-5xl lg:text-left">
             Sie suchen - wir vermitteln
           </h1>

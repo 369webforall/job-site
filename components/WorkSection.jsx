@@ -10,7 +10,7 @@ const WorkSection = () => {
           <h2 className="sm:text-4xl text-base font-medium font-sans mb-4 text-gray-900">
             Ihr schneller Weg zum neuen Job.
           </h2>
-          <h3 className="lg:w-2/3 mx-auto leading-relaxed text-3xl">
+          <h3 className="lg:w-2/3 mx-auto leading-relaxed text-3xl font-sans">
             Unsere spezialisierten Berufsfelder
           </h3>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">

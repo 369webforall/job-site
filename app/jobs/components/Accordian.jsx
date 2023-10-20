@@ -9,7 +9,16 @@ import {
 import CardPage from './Card';
 const Accordian = () => {
   return (
-    <div className="container mx-auto my-6">
+    <div className="container mx-auto my-20">
+      <div className="text-center mb-32">
+        <h2 className="sm:text-3xl text-2xl font-sans text-gray-900 mb-4">
+          Aktuellen Stellenangebote
+        </h2>
+
+        <div className="flex mt-6 justify-center">
+          <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
+        </div>
+      </div>
       <div className="grid grid-col-1 md:grid-cols-12 gap-4">
         <div className="md:col-start-1 md:col-span-4">
           <Accordion type="single" collapsible>

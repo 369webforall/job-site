@@ -11,7 +11,17 @@ const JobDetails = () => {
   };
 
   return (
-    <section className=" mb-10 p-5 font-roboto border-t-2">
+    <section className="p-5 font-roboto  my-32">
+      <div className="text-center mb-32">
+        <h2 className="sm:text-3xl text-2xl font-sans text-gray-900 mb-4">
+          Suchen Sie qualifizierte Mitarbeiter? Wir sind hier, um Ihnen zu
+          helfen!
+        </h2>
+
+        <div className="flex mt-6 justify-center">
+          <div className="w-16 h-1 rounded-full bg-yellow-500 inline-flex"></div>
+        </div>
+      </div>
       <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto my-20 space-y-0 lg:space-y-0">
         <div className="w-full lg:w-1/2 ">
           <Image
