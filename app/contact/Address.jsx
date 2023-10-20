@@ -7,7 +7,7 @@ const Address = () => {
         Kontaktdetails
       </h2>
       <div className=" flex flex-col self-start">
-        <div className="max-w-sm bg-orange-100 bg-gradient-to-r from-orange-400 md:from-yellow-500">
+        <div className="max-w-sm bg-orange-100 bg-gradient-to-r from-orange-400 md:from-yellow-500 p-10">
           <ul className="mt-4">
             <li>
               <Link

@@ -11,14 +11,16 @@ const JobDetails = () => {
   };
 
   return (
-    <section className=" mb-10 p-5 font-roboto">
-      <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto mt-10 space-y-0 lg:space-y-0">
+    <section className=" mb-10 p-5 font-roboto border-t-2">
+      <div className="container flex flex-col gap-14 lg:flex-row lg:gap-32 items-center justify-between px-6 mx-auto my-20 space-y-0 lg:space-y-0">
         <div className="w-full lg:w-1/2 ">
           <Image
             src={heroImage}
             className="object-cover object-center rounded"
             alt="hero"
             as="image"
+            width={450}
+            height={300}
             loading="eager"
             placeholder="blur"
             quality={100}

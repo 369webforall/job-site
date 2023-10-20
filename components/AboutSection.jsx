@@ -28,10 +28,10 @@ const AboutSection = () => {
           <div className="absolute bottom-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
         </div>
         <div className="lg:flex-grow lg:w-1/2 lg:pl-12 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-          <h2 className="text-3xl md:text-5xl font-thin font-sans mb-6  text-gray-900 text-center ">
+          <h2 className="text-2xl md:text-5xl font-thin font-sans mb-6  text-gray-900 text-center ">
             Finde Deinen neuen Job!
           </h2>
-          <p className="mb-8 leading-relaxed  max-w-2xl md:text-xl/relaxed font-roboto">
+          <p className="mb-8 max-w-2xl text-center text-slate-500 lg:text-left">
             Lernen Sie unser umfassendes Angebot, innovative Lösungen und
             moderne Services kennen. Begeben Sie sich mit uns auf einen
             erfolgreichen Weg bei der Job- oder der Mitarbeitersuche.Diversität,
