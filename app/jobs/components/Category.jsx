@@ -7,7 +7,7 @@ const Category = () => {
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-36">
           <h2 className="sm:text-3xl text-2xl font-sans text-gray-900 mb-4">
-            Ihre Vorteile durch unsere Vermittlung
+            Ihre Vorteile durch die LD Personalvermittlung
           </h2>
 
           <div className="flex mt-6 justify-center">

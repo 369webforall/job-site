@@ -16,8 +16,10 @@ const HeroSection = () => {
             Ihre Vorteile durch unsere Vermittlung
           </p>
           <p className="max-w-md text-center text-slate-500 lg:text-left mt-8 mb-8">
-            Sie möchten die Vorteile einer Personalvermittlung nutzen oder haben
-            Fragen? Wir freuen uns und sind gern für Sie da.
+            Wenn Sie von den Vorteilen unserer Firma für die Personalvermittlung
+            profitieren möchten oder Fragen haben, zögern Sie nicht, uns zu
+            kontaktieren. Wir heißen Sie herzlich willkommen und freuen uns
+            darauf, Ihnen zu helfen.
           </p>
           <div className="flex items-center lg:items-start">
             <Link

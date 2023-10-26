@@ -9,7 +9,7 @@ export const navData = [
 export const jobData = [
   {
     id: 1,
-    title: 'Zusteller helfer',
+    title: 'Fahrer/Zusteller mit B Führerschein',
     company: 'LD-Personalvermittlungs',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     details: 'JOB-DETAILS ANZEIGEN',

@@ -11,11 +11,12 @@ const WorkSection = () => {
             Ihr schneller Weg zum neuen Job.
           </h2>
           <h3 className="lg:w-2/3 mx-auto leading-relaxed text-3xl font-sans">
-            Unsere spezialisierten Berufsfelder
+            Unsere Spezialgebiete
           </h3>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Sie suchen einen neuen Job oder neues Personal und wollen das mit
-            professioneller Hilfe tun? Wir sind gern für Sie da.
+            professioneller Hilfe tun? Wir sind gerne plus Ausrufezeichen für
+            Sie da.
           </p>
         </div>
         {/* card to display work */}
@@ -32,7 +33,7 @@ const WorkSection = () => {
                 />
 
                 <h4 className="text-base font-semibold mt-4 uppercase">
-                  Zusteller helfer
+                  Fahrer/Zusteller mit B Führerschein
                 </h4>
               </Link>
             </div>

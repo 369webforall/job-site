@@ -67,7 +67,7 @@ const ContactForm = () => {
         </div>
         <div className="mb-4">
           <label className="block text-gray-600 mb-2" htmlFor="email">
-            E-Mail*
+            Mailadresse*
           </label>
           <input
             type="email"

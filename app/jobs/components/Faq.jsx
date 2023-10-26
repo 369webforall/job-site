@@ -44,11 +44,17 @@ const Faq = () => {
                 Wie viel kostet eine Personalvermittlung?
               </AccordionTrigger>
               <AccordionContent className="text-left">
-                Die Kosten für eine Personalvermittlung variieren teilweise sehr
-                stark. Oft wird eine Provision vereinbart, die sich am
-                Bruttojahresgehalt der zu besetzenden Stelle orientiert. 20-30
-                Prozent entsprechen etwa dem Durchschnitt, hochspezialisierte
-                Headhunter bewegen sich auch gerne mal noch darüber.
+                Ein Personalvermittler hat wesentlich bessere Möglichkeiten,
+                passende Mitarbeiter zu finden, als die Firma selbst. Durch den
+                Zugriff auf einen bestehenden Bewerberpool, besondere
+                Erfahrungen im Recruiting und weitreichende Kontakte machen sich
+                Personalvermittler nahezu unverzichtbar. Den perfekten
+                Kandidaten finden = Ein Personalvermittler hat wesentlich
+                bessere Möglichkeiten, passende Mitarbeiter zu finden, als die
+                Firma selbst. Durch den Zugriff auf einen bestehenden
+                Bewerberpool, besondere Erfahrungen im Recruiting und
+                weitreichende Kontakte machen sich Personalvermittler nahezu
+                unverzichtbar, um passende Kandidaten zu finden.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
