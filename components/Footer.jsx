@@ -138,7 +138,7 @@ function Footer() {
                         </svg>
                       </span>
                       <span className="ml-3">
-                        Mon - Fri: 9:00 AM - 19:00 PM
+                        Mon - Fre: 9:00 AM - 19:00 PM
                       </span>
                     </Link>
                   </li>
@@ -199,7 +199,7 @@ function Footer() {
                         </svg>
                       </span>
                       <span className="ml-3">
-                        kontat@ld-personalvermittlung.de
+                        kontakt@ld-personalvermittlung.de
                       </span>
                     </Link>
                   </li>

@@ -40,25 +40,22 @@ const Blogs = () => {
         </div>
         <div className="container mx-auto flex px-5 py-2  flex-col gap-4">
           <p class=" leading-relaxed text-lg text-justify font-roboto">
-            <b>Personalvermittlung</b> ist ein wichtiger Schritt in der
-            Karriereplanung für viele Menschen. Die Firma LD Personalvermittlung
-            hat sich darauf spezialisiert, Menschen mit Unternehmen zu
-            verbinden, die auf der Suche nach qualifizierten Mitarbeitern sind.
-            In diesem Blogartikel erfahren Sie mehr über die Dienstleistungen
-            von LD Personalvermittlung und wie sie Ihnen bei Ihrer Karriere oder
-            Ihrem Unternehmen helfen können.
+            Die Firma <b>LD Personalvermittlung</b> hat sich darauf
+            spezialisiert, Menschen mit Unternehmen zu verbinden, die auf der
+            Suche nach qualifizierten Mitarbeitern sind. In diesem Blogartikel
+            erfahren Sie mehr über die Dienstleistungen der LD
+            Personalvermittlung und wie sie bei Ihrer Karriere oder Ihrem
+            Unternehmen unterstützt werden
           </p>
           <h2 className="sm:text-3xl text-2xl mt-8 mb-10 font-roboto text-gray-900">
             Die Kosten für Personalvermittlung
           </h2>
           <p class=" leading-relaxed text-lg font-roboto">
-            Die Kosten für Personalvermittlung variieren je nach Unternehmen und
-            den spezifischen Anforderungen. LD Personalvermittlung bietet
-            transparente und wettbewerbsfähige Preise. Die Gebühren hängen oft
-            von der Schwierigkeit der Position, der Branche und der Erfahrung
-            des Bewerbers ab. Es ist jedoch wichtig zu bedenken, dass die
+            Die Kosten für eine Personalvermittlung variieren je nach Branche,
+            den spezifischen Anforderungen, der Position und der Erfahrung des
+            Bewerbers ab. Es ist jedoch wichtig zu bedenken, dass die
             Investition in die richtige Person langfristig von großem Nutzen für
-            Ihr Unternehmen sein kann.
+            Ihr Unternehmen ist.
           </p>
         </div>
       </section>
@@ -70,13 +67,11 @@ const Blogs = () => {
             </h2>
             <p className="leading-relaxed text-lg text-justify font-roboto max-w-3xl p-1">
               Oft werden die Begriffe Personalberatung und Personalvermittlung
-              synonym verwendet, aber es gibt einen wichtigen Unterschied.
-              Personalberatung konzentriert sich auf die Beratung von
-              Unternehmen hinsichtlich ihrer Personalstrategie, während
-              Personalvermittlung sich auf die tatsächliche Vermittlung von
-              Mitarbeitern an Unternehmen konzentriert. LD Personalvermittlung
-              bietet beide Dienstleistungen an, um sicherzustellen, dass Ihre
-              Personalanforderungen vollständig abgedeckt sind.
+              als Synonyme verwendet. Tatsächlich gibt es aber einen wichtigen
+              Unterschied. Bei der Personalberatung konzentriert man sich auf
+              die Beratung von Unternehmen hinsichtlich ihrer Personalstrategie,
+              während es bei der Personalvermittlung um die direkte Vermittlung
+              von Mitarbeitern an das Unternehmen geht.
             </p>
           </div>
 

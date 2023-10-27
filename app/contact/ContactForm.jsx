@@ -123,7 +123,7 @@ const ContactForm = () => {
           type="submit"
           className="bg-orange-600 text-white py-3 px-6 mt-4 rounded hover:bg-orange-800 transition-colors"
         >
-          EINSENDEN
+          SENDEN
         </button>
       </form>
     </div>
