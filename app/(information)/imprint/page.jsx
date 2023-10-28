@@ -11,15 +11,15 @@ const Imprint = () => {
       <p className="mb-4">Responsible editor</p>
       <p className="mb-2">LD Personalvermittlungs GmbH</p>
       <p className="mb-4">
-        Nickel Strasse 21,
-        <br /> 33378 Rheda Wiederbruck
+        Nickelstraße 21,
+        <br /> 33378 Rheda Wiedenbrück
       </p>
 
       <p className="mb-4">
-        Telephone: +49 179 7257337 / +49 15510 204189 (according to the tariff
+        Telephone: +49 15510 204189 / +49 05242/1821210 (according to the tariff
         for calls to the German mobile network)
       </p>
-      <p className="mb-4">Email: kontat@ld-personalvwerbung.de</p>
+      <p className="mb-4">Email: kontkt@ld-personalvwerbung.de</p>
       <p className="mb-4">
         Responsible for the website: Lacramioara-Lili Cojocariu
       </p>
