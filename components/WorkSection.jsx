@@ -22,7 +22,7 @@ const WorkSection = () => {
         {/* card to display work */}
         <div className="max-w-6xl mx-auto grid grid-cols-2 gap-10  md:grid-cols-8 mt-12 text-center">
           <div className=" lg:col-start-1 col-span-2">
-            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4 col-start-4 col-end-6">
+            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4 col-start-4 col-end-6 h-40">
               <Link href="/jobs">
                 <Image
                   src={delivery}
@@ -40,7 +40,7 @@ const WorkSection = () => {
           </div>
 
           <div className="lg:col-start-3 col-span-2">
-            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4">
+            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4 h-40">
               <Link href="/jobs">
                 <Image
                   src={deliveryVan}
@@ -58,7 +58,7 @@ const WorkSection = () => {
           </div>
 
           <div className="lg:col-start-5 col-span-2">
-            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4">
+            <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4 h-40">
               <Link href="/jobs">
                 <Image
                   src={helper}
@@ -77,7 +77,7 @@ const WorkSection = () => {
 
           <div className="md:col-start-7 col-span-2">
             <Link href="/jobs">
-              <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4">
+              <div className="max-w-xs bg-white rounded-lg border border-gray-300 p-4 h-40">
                 <Image
                   src={forklift}
                   alt="technician"
