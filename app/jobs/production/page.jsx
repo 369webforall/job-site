@@ -4,7 +4,7 @@ const Production = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="container mx-auto p-6">
-        <h1 className="text-3xl font-semibold mb-6">Vertriebsprofi (m/w/d)</h1>
+        <h1 className="text-3xl font-semibold mb-6">Produktionshelfer:</h1>
 
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="mb-4">
@@ -12,20 +12,16 @@ const Production = () => {
           </p>
 
           <p className="mb-4">
-            Vertriebsprofis (m/w/d) aufgepasst, wenn du ehrgeizig bist und mit
-            einem jungen Unternehmen wachsen möchtest, dann suchen wir DICH!
+            Als Produktionshelfer sind Sie in unserer Fertigungsabteilung tätig
+            und unterstützen bei verschiedenen Aufgaben im Produktionsprozess.
+            Dazu gehören das Zusammenbauen von Teilen, das Bedienen von
+            Maschinen, das Überwachen der Produktqualität und die Behebung von
+            kleineren Störungen. Sie arbeiten eng mit anderen Teammitgliedern
+            zusammen, um einen effizienten Produktionsablauf sicherzustellen.
+            Keine speziellen Qualifikationen sind erforderlich, aber
+            handwerkliche Fähigkeiten und die Bereitschaft, körperliche Arbeit
+            zu leisten, sind von Vorteil.
           </p>
-
-          <h2 className="text-xl font-semibold mb-2">
-            Deine zukünftigen Aufgaben sind:
-          </h2>
-          <ul className="list-disc list-inside mb-4 ml-4">
-            <li>
-              Akquise und Betreuung von Kundenunternehmen in der DACH Region
-            </li>
-            <li>Eventuelle Kundenbesuche</li>
-            <li>Stellenanzeigen verfassen und schalten</li>
-          </ul>
 
           <h2 className="text-xl font-semibold mb-2">Wichtig ist uns:</h2>
           <ul className="list-disc list-inside mb-4 ml-4">
@@ -60,7 +56,10 @@ const Production = () => {
             Wenn du dich angesprochen fühlst und unser Stern am Vertriebshimmel
             sein willst, dann melde dich bitte mit Lebenslauf und kurzem
             Motivationsschreiben per E-Mail an:{' '}
-            <a href="mailto:bewerbung@ld-personalvermittlung.de">
+            <a
+              href="mailto:bewerbung@ld-personalvermittlung.de"
+              className="hover:border-b border-orange-500 transition-colors"
+            >
               bewerbung@ld-personalvermittlung.de
             </a>
           </p>

@@ -5,7 +5,7 @@ const TruckDriver = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="container mx-auto p-6">
-        <h1 className="text-3xl font-semibold mb-6">Vertriebsprofi (m/w/d)</h1>
+        <h1 className="text-3xl font-semibold mb-6">LKW Fahrer:</h1>
 
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="mb-4">
@@ -13,20 +13,15 @@ const TruckDriver = () => {
           </p>
 
           <p className="mb-4">
-            Vertriebsprofis (m/w/d) aufgepasst, wenn du ehrgeizig bist und mit
-            einem jungen Unternehmen wachsen möchtest, dann suchen wir DICH!
+            Als LKW-Fahrer spielen Sie eine Schlüsselrolle in unserem
+            Logistikteam. Sie sind dafür verantwortlich, schwere Lastwagen
+            sicher zu führen und Frachtgüter zu transportieren. Dies umfasst das
+            Be- und Entladen von Waren, das Überprüfen der Ladungssicherung und
+            das Einhalten der gesetzlichen Vorschriften für den Straßenverkehr.
+            Zu Ihren Aufgaben gehört auch die Wartung und Pflege des LKW. Ein
+            entsprechender Führerschein für schwere Lastwagen (z. B. C oder CE)
+            ist erforderlich.
           </p>
-
-          <h2 className="text-xl font-semibold mb-2">
-            Deine zukünftigen Aufgaben sind:
-          </h2>
-          <ul className="list-disc list-inside mb-4 ml-4">
-            <li>
-              Akquise und Betreuung von Kundenunternehmen in der DACH Region
-            </li>
-            <li>Eventuelle Kundenbesuche</li>
-            <li>Stellenanzeigen verfassen und schalten</li>
-          </ul>
 
           <h2 className="text-xl font-semibold mb-2">Wichtig ist uns:</h2>
           <ul className="list-disc list-inside mb-4 ml-4">
@@ -61,7 +56,10 @@ const TruckDriver = () => {
             Wenn du dich angesprochen fühlst und unser Stern am Vertriebshimmel
             sein willst, dann melde dich bitte mit Lebenslauf und kurzem
             Motivationsschreiben per E-Mail an:{' '}
-            <a href="mailto:bewerbung@ld-personalvermittlung.de">
+            <a
+              href="mailto:bewerbung@ld-personalvermittlung.de"
+              className="hover:border-b border-orange-500 transition-colors"
+            >
               bewerbung@ld-personalvermittlung.de
             </a>
           </p>
