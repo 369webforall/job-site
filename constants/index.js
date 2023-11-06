@@ -11,7 +11,8 @@ export const jobData = [
     id: 1,
     title: 'Fahrer/Zusteller mit B Führerschein',
     company: 'LD-Personalvermittlungs',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description:
+      'Als Fahrer/Zusteller mit einem B Führerschein sind Sie ein wichtiger Teil unseres Liefer- und Zustellteams.',
     details: 'JOB-DETAILS ANZEIGEN',
     link: '/deliveryhelper',
   },
@@ -20,7 +21,7 @@ export const jobData = [
     title: 'LKW Fahrer',
     company: 'LD-Personalvermittlungs',
     description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      'Als LKW-Fahrer spielen Sie eine Schlüsselrolle in unserem Logistikteam.',
     details: 'JOB-DETAILS ANZEIGEN',
     link: '/truckdriver',
   },
@@ -29,7 +30,7 @@ export const jobData = [
     title: 'Produktionshelfer',
     company: 'LD-Personalvermittlungs',
     description:
-      'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+      'Als Produktionshelfer sind Sie in unserer Fertigungsabteilung tätig und unterstützen bei verschiedenen Aufgaben im Produktionsprozess.',
     details: 'JOB-DETAILS ANZEIGEN',
     link: '/production',
   },
@@ -38,7 +39,7 @@ export const jobData = [
     title: 'Lagerhelfer',
     company: 'LD-Personalvermittlungs',
     description:
-      'Lagermitarbeiter (Pick by Voice) auf verschiedenen Standorten je nach Bedarf des Kunden....',
+      'Als Lagerhelfer sind Sie für die Organisation und Verwaltung unseres Lagers verantwortlich.',
     details: 'JOB-DETAILS ANZEIGEN',
     link: '/warehouse',
   },

@@ -34,9 +34,7 @@ const Accordian = () => {
                 verantwortlich für die richtige Verladung der Lieferungen, die
                 Einhaltung der Verkehrsregeln und die Gewährleistung der
                 Kundenzufriedenheit. Darüber hinaus kann die Pflege und Wartung
-                des Zustellfahrzeugs zu Ihren Aufgaben gehören. Ein B
-                Führerschein ist erforderlich, um für diese Position in Betracht
-                gezogen zu werden.
+                des Zustellfahrzeugs zu Ihren Aufgaben gehören.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -48,8 +46,7 @@ const Accordian = () => {
                 das Be- und Entladen von Waren, das Überprüfen der
                 Ladungssicherung und das Einhalten der gesetzlichen Vorschriften
                 für den Straßenverkehr. Zu Ihren Aufgaben gehört auch die
-                Wartung und Pflege des LKW. Ein entsprechender Führerschein für
-                schwere Lastwagen (z. B. C oder CE) ist erforderlich.
+                Wartung und Pflege des LKW.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -76,8 +73,7 @@ const Accordian = () => {
                 des Lagerbestands, das Verpacken von Produkten und das
                 Vorbereiten von Sendungen für den Versand. Sie sorgen für
                 Ordnung und Sauberkeit im Lager und arbeiten eng mit anderen
-                Lagermitarbeitern zusammen. Erfahrung im Lagerbetrieb ist von
-                Vorteil, aber nicht unbedingt erforderlich.
+                Lagermitarbeitern zusammen.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
