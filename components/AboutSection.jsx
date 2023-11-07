@@ -42,12 +42,7 @@ const AboutSection = () => {
             auf Chancen für alle. Wir glauben an Innovationskraft und
             Veränderungsbereitschaft und unseren Plan: Arbeiten, um die Welt zu
             verändern. Wir schauen auf die Arbeitskräfte, unsere Bewerber und
-            Mitarbeiter. Auf der anderen Seite haben wir die Bedürfnisse und
-            Herausforderungen unserer Kunden im Blick. Unsere Vision ist es,
-            führend in der Entwicklung und Bereitstellung innovativer Lösungen
-            und Dienstleistungen für Arbeitskräfte zu sein, die es unseren
-            Kunden ermöglichen, in der sich verändernden Arbeitswelt erfolgreich
-            zu sein.
+            Mitarbeiter.
           </p>
 
           <Link
