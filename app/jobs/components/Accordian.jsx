@@ -29,6 +29,14 @@ const Accordian = () => {
               <AccordionContent>
                 Ein B Führerschein ist erforderlich, um für diese Position in
                 Betracht gezogen zu werden.
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Fahrer%2FZusteller+mit+B+F%C3%BChrerschein"
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -36,6 +44,14 @@ const Accordian = () => {
               <AccordionContent>
                 Ein entsprechender Führerschein für schwere Lastwagen (z. B. C
                 oder CE) ist erforderlich.
+                <br />
+                <a
+                  href="https://www.gehalt.de/beruf/lkw-fahrer-lkw-fahrerin"
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -44,6 +60,14 @@ const Accordian = () => {
                 Keine speziellen Qualifikationen sind erforderlich, aber
                 handwerkliche Fähigkeiten und die Bereitschaft, körperliche
                 Arbeit zu leisten, sind von Vorteil.
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Produktionshelfer&location="
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -51,6 +75,14 @@ const Accordian = () => {
               <AccordionContent>
                 Erfahrung im Lagerbetrieb ist von Vorteil, aber nicht unbedingt
                 erforderlich.
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Lagerhelfer&location="
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
