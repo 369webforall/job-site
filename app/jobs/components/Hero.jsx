@@ -17,6 +17,7 @@ const HeroJob = () => {
             loading="eager"
             placeholder="blur"
             quality={100}
+            title="Hier finden Sie unsere aktuellen Stellenangebote"
             priority={true}
           />
         </div>

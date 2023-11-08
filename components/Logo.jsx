@@ -16,6 +16,7 @@ const Logo = () => {
         priority={true}
         as="image"
         loading="eager"
+        title="logo"
       />
     </div>
   );

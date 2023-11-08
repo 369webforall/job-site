@@ -35,6 +35,7 @@ const JobDetails = () => {
             placeholder="blur"
             quality={100}
             priority={true}
+            title="Arbeitgeber und Arbeitnehmer verbinden"
           />
         </div>
         <div className="flex flex-col  space-y-4 lg:w-1/2">

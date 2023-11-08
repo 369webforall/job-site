@@ -23,6 +23,7 @@ function Footer() {
                 priority={true}
                 as="image"
                 loading="eager"
+                title="logo"
               />
             </div>
 

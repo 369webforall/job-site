@@ -28,6 +28,9 @@ const Blogs = () => {
               alt="meeting"
               src={blog1}
               placeholder="blur"
+              loading="eager"
+              sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              title="Was macht eine Personalvermittlung"
             />
           </div>
           <div className="lg:flex-grow  lg:pl-40 md:pl-16 flex items-center text-center ">
@@ -81,6 +84,9 @@ const Blogs = () => {
               alt="interview"
               src={blog2}
               placeholder="blur"
+              loading="eager"
+              sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              title="Unterschied zwischen Personalberatung und Personalvermittlung"
             />
           </div>
         </div>
@@ -93,6 +99,9 @@ const Blogs = () => {
               alt="Personalberater"
               src={blog3}
               placeholder="blur"
+              loading="eager"
+              sizes="(max-width:768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              title="Diese 10 stellt die Personalberaterin"
             />
           </div>
           <div className="px-2 py-1 lg:flex-1 md:w-1/2 lg:pl-24 md:pl-16 md:py-8 flex flex-col md:items-start md:text-left items-center">

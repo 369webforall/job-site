@@ -21,6 +21,8 @@ const AboutSection = () => {
               objectFit="cover"
               decoding="async"
               className="w-full h-full rounded-sm"
+              loading="eager"
+              title="Finde Deinen neuen Job"
               placeholder="blur"
             />
           </div>

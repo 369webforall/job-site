@@ -29,6 +29,8 @@ const WorkSection = () => {
                   alt="technician"
                   width={60}
                   height={60}
+                  loading="eager"
+                  title="Fahrer/Zusteller mit B Führerschein"
                   className="mx-auto object-contain"
                 />
 
@@ -47,7 +49,9 @@ const WorkSection = () => {
                   alt="technician"
                   width={60}
                   height={60}
+                  loading="eager"
                   className="mx-auto object-contain"
+                  title="LKW Fahrer"
                 />
 
                 <h4 className="text-base font-semibold mt-4 uppercase">
@@ -65,6 +69,8 @@ const WorkSection = () => {
                   alt="technician"
                   width={60}
                   height={60}
+                  loading="eager"
+                  title="Produktionshelfer"
                   className="mx-auto object-contain"
                 />
 
@@ -83,6 +89,8 @@ const WorkSection = () => {
                   alt="technician"
                   width={60}
                   height={60}
+                  loading="eager"
+                  title="Lagerhelfer"
                   className="mx-auto object-contain"
                 />
                 <h4 className="text-base font-semibold mt-4 uppercase">

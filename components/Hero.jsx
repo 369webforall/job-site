@@ -36,11 +36,12 @@ const HeroSection = () => {
           <Image
             src={heroImage}
             className="object-cover object-center rounded"
-            alt="hero"
+            alt="job interview"
             as="image"
             loading="eager"
             placeholder="blur"
             quality={100}
+            title="A panel of interviewers conducting a job interview with a candidate."
             priority={true}
           />
         </div>
