@@ -9,7 +9,7 @@ export async function generateMetadata() {
   return {
     title: 'Kontaktieren Sie Uns - LD Personalvermittlung | Fragen, Anfragen',
     description:
-      'Haben Sie Fragen oder möchten Sie mit uns zusammenarbeiten? Kontaktieren Sie LD Personalvermittlung für professionelle Personalberatung und Karriereunterstützung. Wir freuen uns darauf, von Ihnen zu hören',
+      'Haben Sie Fragen oder Anfrage möchten Sie mit uns zusammenarbeiten? Kontaktieren Sie LD Personalvermittlung für professionelle Personalberatung.',
     alternates: {
       canonical: `${siteURL}/contact`,
     },

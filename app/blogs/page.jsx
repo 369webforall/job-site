@@ -8,10 +8,9 @@ export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
 
   return {
-    title:
-      'Informative und Inspirierende Artikel - LD Personalvermittlung Blog',
+    title: 'Informative Artikel - LD Personalvermittlung Blog',
     description:
-      'Entdecken Sie unseren Blog für interessante Artikel rund um Karriere, Personalmanagement und berufliche Entwicklung. Erfahren Sie wertvolle Tipps und Einblicke, um Ihre beruflichen Ziele zu erreichen.',
+      'Entdecken LD Personalvermittlung Blog für informative Artikel rund um Karriere, Personalmanagement und berufliche Entwicklung. Erfahren Sie wertvolle Tipps.',
     alternates: {
       canonical: `${siteURL}/blogs`,
     },
