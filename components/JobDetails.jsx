@@ -39,10 +39,10 @@ const JobDetails = () => {
           />
         </div>
         <div className="flex flex-col  space-y-4 lg:w-1/2">
-          <h2 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
+          <h3 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
             Wir Verbinden Arbeitgeber und Arbeitnehmer - Effiziente
             Personalvermittlung für Ihren Erfolg
-          </h2>
+          </h3>
           <p className="max-w-2xl text-center text-slate-500 lg:text-left">
             Suchen Sie qualifizierte Mitarbeiter? Wir sind hier, um Ihnen zu
             helfen! Unsere Personalvermittlung ist darauf spezialisiert, die
@@ -51,9 +51,9 @@ const JobDetails = () => {
           </p>
           {isExpanded ? (
             <>
-              <h2 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
+              <h4 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
                 Warum Unsere Personalvermittlung Wählen?
-              </h2>
+              </h4>
               <p className="max-w-2xl text-center text-slate-500 lg:text-left">
                 Fachkenntnisse: Unsere Experten kennen den Arbeitsmarkt und
                 finden die besten Talente für Ihr Unternehmen.
@@ -71,9 +71,9 @@ const JobDetails = () => {
                 Wir streben nach langfristigen Partnerschaften und erfolgreichen
                 Einstellungen.
               </p>
-              <h2 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
+              <h5 className="text-2xl font-sans font-thin text-center lg:text-3xl lg:text-left">
                 Ihre Vorteile Mit Unserer Vermittlung:
-              </h2>
+              </h5>
               <p className="max-w-2xl text-center text-slate-500 lg:text-left">
                 Effizienz: Sparen Sie Zeit und Ressourcen, indem Sie sich auf
                 uns verlassen, um die richtigen Mitarbeiter zu finden.
