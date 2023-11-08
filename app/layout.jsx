@@ -23,29 +23,8 @@ export async function generateMetadata() {
   return {
     title: 'LD Personalvermittlung - Ihr Partner für Erfolg',
     description:
-      'LD-Personalvermittlungs GmbH: Zuverlässiger Partner für die Personalvermittlung. Erfahrung in der Direktbeschaffung und maßgeschneiderten Lösungen. Finden Sie jetzt Ihre ideale Arbeitskraft!',
-    keywords: [
-      'Produktionsmitarbeiter',
-      'Produktionshelfer',
-      'Direktvermittlung',
-      'Neue Mitarbeiter finden',
-      'Pflegepersonal vermitteln',
-      'Küchenhilfe Vermittlung',
-      'Reinigungskräfte vermitteln',
-      'Servicekräfte suchen',
-      'Bauarbeiter Vermittlung',
-      'Elektriker vermitteln',
-      'Mechaniker einstellen',
-      'LKW-Fahrer Vermittlung',
-      'Paketzusteller finden',
-      'Fahrdienst Personal',
-      'Lagerhelfer vermitteln',
-      'Kommissionierer einstellen',
-      'Erntehelfer vermitteln',
-      'Landwirtschaftliche Mitarbeiter suchen',
-      'Personalvermittlung',
-      'Stellenvermittlung',
-    ],
+      'LD-Personalvermittlung GmbH: Ihr Partner für zuverlässige Personalvermittlung und maßgeschneiderte Lösungen. Finden Sie Ihre Arbeitskraft!',
+
     verification: {
       google: 'B4qegFqzbZRAvx9a80H2v_4Z3nn1t6uA6tl5RpKnTuk',
     },
