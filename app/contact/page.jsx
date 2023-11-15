@@ -3,6 +3,9 @@ import ContactForm from '@/app/contact/ContactForm';
 
 import Calendly from './Calendly';
 import Address from './Address';
+
+import Map from './Map';
+
 export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
 
@@ -33,6 +36,9 @@ const Contact = () => {
 
           <Calendly />
         </div>
+      </div>
+      <div className="my-4">
+        <Map />
       </div>
     </div>
   );
