@@ -1,10 +1,12 @@
 import './globals.css';
 import GoogleAnalytics from './GoogleAnalytics';
 import { Inter, Roboto } from 'next/font/google';
-import GoogleTagManager from './GoogleTagManager';
 import Head from 'next/head';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+
+import { GoogleTagManager } from '@next/third-parties/google';
+
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
@@ -36,9 +38,6 @@ export async function generateMetadata() {
 export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
-      <Head>
-        <GoogleTagManager />
-      </Head>
       <body>
         <iframe
           src="https://www.googletagmanager.com/gtag/js?id=G-1FE30CX6B2"
@@ -46,12 +45,14 @@ export default function RootLayout({ children }) {
           width="0"
           title="Google Tag Manager"
         ></iframe>
-        <GoogleAnalytics />
+        {/* <GoogleAnalytics /> */}
 
         <Navbar />
         {children}
         <Footer />
       </body>
+      <GoogleTagManager gtmId="G-1FE30CX6B2" />
+      <GoogleAnalytics />
     </html>
   );
 }
