@@ -10,17 +10,13 @@ const AboutSection = () => {
         <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
           <div className="relative">
             <Image
-              a
               alt="picture of jobsearch"
               src={poster}
               priority={true}
               quality={100}
-              layout="responsive"
               width={600}
               height={400}
-              objectFit="cover"
-              decoding="async"
-              className="rounded-sm"
+              className="rounded-sm object-cover"
               loading="eager"
               title="Finde Deinen neuen Job"
               placeholder="blur"
