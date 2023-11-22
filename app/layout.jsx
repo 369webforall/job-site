@@ -39,14 +39,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de" className={`${inter.variable} ${roboto.variable}`}>
       <body>
-        <iframe
-          src="https://www.googletagmanager.com/gtag/js?id=G-1FE30CX6B2"
-          height="0"
-          width="0"
-          title="Google Tag Manager"
-        ></iframe>
-        {/* <GoogleAnalytics /> */}
-
         <Navbar />
         {children}
         <Footer />

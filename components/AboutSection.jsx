@@ -20,7 +20,7 @@ const AboutSection = () => {
               height={400}
               objectFit="cover"
               decoding="async"
-              className="w-full h-full rounded-sm"
+              className="rounded-sm"
               loading="eager"
               title="Finde Deinen neuen Job"
               placeholder="blur"

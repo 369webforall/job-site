@@ -43,6 +43,7 @@ const HeroSection = () => {
             quality={100}
             title="A panel of interviewers conducting a job interview with a candidate."
             priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
           />
         </div>
       </div>

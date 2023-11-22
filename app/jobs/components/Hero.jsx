@@ -19,13 +19,13 @@ const HeroJob = () => {
             quality={100}
             title="Hier finden Sie unsere aktuellen Stellenangebote"
             priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
           />
         </div>
         <div className="flex flex-col mb-16 space-y-12 lg:w-1/2">
           <h1 className="text-3xl font-sans font-thin text-center lg:text-4xl lg:text-left">
             Hier finden Sie unsere aktuellen <br /> Stellenangebote
           </h1>
-          {/* <p className="max-w-lg text-center text-slate-500 lg:text-left"></p> */}
 
           <div className="flex items-center lg:items-start">
             <Link
