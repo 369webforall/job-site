@@ -11,15 +11,17 @@ const HeroJob = () => {
         <div className="w-full lg:w-1/2">
           <Image
             src={heroImage}
-            className="object-cover object-center rounded"
             alt="hero"
-            as="image"
+            width={1200}
+            height={800}
+            objectFit="cover"
+            objectPosition="center"
+            layout="responsive"
             loading="eager"
             placeholder="blur"
             quality={100}
             title="Hier finden Sie unsere aktuellen Stellenangebote"
             priority={true}
-            sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
           />
         </div>
         <div className="flex flex-col mb-16 space-y-12 lg:w-1/2">

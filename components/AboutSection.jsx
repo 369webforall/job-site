@@ -13,13 +13,15 @@ const AboutSection = () => {
               alt="picture of jobsearch"
               src={poster}
               priority={true}
-              quality={100}
-              width={600}
-              height={400}
-              className="rounded-sm object-cover"
+              width={800}
+              height={600}
+              objectFit="cover"
+              objectPosition="center"
+              layout="responsive"
               loading="eager"
-              title="Finde Deinen neuen Job"
               placeholder="blur"
+              quality={100}
+              title="Finde Deinen neuen Job"
             />
           </div>
           <div className="absolute top-0 mx-auto w-1/2 h-5 bg-orange-500"></div>
