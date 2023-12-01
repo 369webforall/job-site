@@ -26,7 +26,7 @@ const JobDetails = () => {
         <div className="w-full lg:w-1/2 ">
           <Image
             src={heroImage}
-            alt="hero"
+            alt="Recuitment process"
             width={450}
             height={300}
             layout="responsive"
@@ -34,7 +34,7 @@ const JobDetails = () => {
             className="rounded"
             loading="eager"
             placeholder="blur"
-            quality={80}
+            quality={100}
             priority={true}
             title="Arbeitgeber und Arbeitnehmer verbinden"
           />
