@@ -20,7 +20,7 @@ const Blogs = () => {
   return (
     <>
       <section className="text-gray-600 font-roboto">
-        <div className="container mx-auto flex px-1 pb-5 md:flex-row flex-col items-center">
+        <div className="mx-auto flex px-1 pb-5 md:flex-row flex-col items-center">
           <div className="relative lg:max-w-2xl  md:w-1/2 mb-10 md:mb-0 ">
             <Image
               className="object-cover object-center rounded"

@@ -20,34 +20,41 @@ export default async function sitemap() {
       priority: 0.8,
     },
     {
-      url: 'https://www.ldpersonalvermittlung.com/jobs/deliveryhelper',
+      url: 'https://www.ldpersonalvermittlung.com/jobs/fahrer-zusteller',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
     },
     {
-      url: 'https://www.ldpersonalvermittlung.com/jobs/truckdriver',
+      url: 'https://www.ldpersonalvermittlung.com/jobs/lkw-fahrer',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
     },
     {
-      url: 'https://www.ldpersonalvermittlung.com/jobs/production',
+      url: 'https://www.ldpersonalvermittlung.com/jobs/produktionshelfer',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
     },
     {
-      url: 'https://www.ldpersonalvermittlung.com/jobs/warehouse',
+      url: 'https://www.ldpersonalvermittlung.com/jobs/lagerhelfer',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+
     {
       url: 'https://ldpersonalvermittlung.com/blogs',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 0.5,
+      priority: 0.7,
+    },
+    {
+      url: 'https://ldpersonalvermittlung.com/blogs/first',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
     {
       url: 'https://ldpersonalvermittlung.com/agb',
@@ -66,12 +73,6 @@ export default async function sitemap() {
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.6,
-    },
-    {
-      url: 'https://www.ldpersonalvermittlung.com/jobs/apply',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 0.9,
     },
   ];
 }

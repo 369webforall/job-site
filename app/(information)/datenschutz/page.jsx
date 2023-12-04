@@ -239,7 +239,7 @@ const PrivacyPage = () => {
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        http://windows.microsoft.com/de-DE/windows-vista/Block-or-allow-cookies
+        windows microsoft
       </a>
       <h2 className="mt-8 text-2xl font-semibold">Safari™:</h2>
       <a
@@ -247,15 +247,15 @@ const PrivacyPage = () => {
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        https://help.apple.com/safari/mac/8.0/en.lproj/sfri11471.html
+        help apple
       </a>
       <p>und</p>
       <a
-        href="https://support.apple.com/kb/PH21411?locale=de_DE"
+        href="https://support.apple.com/"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        https://support.apple.com/kb/PH21411?locale=de_DE
+        apple support
       </a>
       <h2 className="mt-8 text-2xl font-semibold">Chrome™:</h2>
       <a
@@ -263,7 +263,7 @@ const PrivacyPage = () => {
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        https://support.google.com/chrome/answer/95647?hl=de&hlrm=en
+        support google com
       </a>
       <h2 className="mt-8 text-2xl font-semibold">Firefox™:</h2>
       <a
@@ -271,7 +271,7 @@ const PrivacyPage = () => {
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen
+        support mozilla
       </a>
       <h2 className="mt-8 text-2xl font-semibold">Opera™:</h2>
       <a
@@ -279,7 +279,7 @@ const PrivacyPage = () => {
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
       >
-        https://help.opera.com/en/latest/security-and-privacy/
+        help opera
       </a>
 
       <h2 className="mt-8 text-2xl font-semibold">Verschlüsselung durch SSL</h2>

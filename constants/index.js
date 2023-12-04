@@ -14,7 +14,7 @@ export const jobData = [
     description:
       'Als Fahrer/Zusteller mit einem B Führerschein sind Sie ein wichtiger Teil unseres Liefer- und Zustellteams.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/deliveryhelper',
+    link: '/fahrer-zusteller',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const jobData = [
     description:
       'Als LKW-Fahrer spielen Sie eine Schlüsselrolle in unserem Logistikteam.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/truckdriver',
+    link: '/lkw-fahrer',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const jobData = [
     description:
       'Als Produktionshelfer sind Sie in unserer Fertigungsabteilung tätig und unterstützen bei verschiedenen Aufgaben im Produktionsprozess.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/production',
+    link: '/produktionshelfer',
   },
   {
     id: 4,
@@ -41,6 +41,6 @@ export const jobData = [
     description:
       'Als Lagerhelfer sind Sie für die Organisation und Verwaltung unseres Lagers verantwortlich.',
     details: 'JOB-DETAILS ANZEIGEN',
-    link: '/warehouse',
+    link: '/lagerhelfer',
   },
 ];

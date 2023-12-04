@@ -35,14 +35,15 @@ const HeroSection = () => {
         <div className="w-full lg:w-1/2">
           <Image
             src={heroImage}
-            className="object-cover object-center rounded"
             alt="job interview"
-            as="image"
-            loading="eager"
-            placeholder="blur"
+            layout="responsive"
+            width={1200}
+            height={800}
+            objectFit="cover"
             quality={100}
             title="A panel of interviewers conducting a job interview with a candidate."
             priority={true}
+            loading="eager"
             sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
           />
         </div>
