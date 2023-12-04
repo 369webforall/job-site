@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { speed, exclusivity, advise } from '@/public/assets/icons';
+import { speed, exclusivity, advise } from '../../../public/assets/icons';
 const Category = () => {
   return (
     <section className="text-gray-600 body-font mt-20">

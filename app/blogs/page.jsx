@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import blog1 from '@/public/assets/images/blog1.jpg';
-import blog2 from '@/public/assets/images/blog2.jpg';
-import blog3 from '@/public/assets/images/blog3.jpg';
+import blog1 from '../../public/assets/images/blog1.jpg';
+import blog2 from '../../public/assets/images/blog2.jpg';
+import blog3 from '../../public/assets/images/blog3.jpg';
 
 export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';

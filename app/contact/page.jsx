@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactForm from '@/app/contact/ContactForm';
+import ContactForm from './ContactForm';
 
 import Calendly from './Calendly';
 import Address from './Address';

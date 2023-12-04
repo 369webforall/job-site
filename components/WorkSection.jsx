@@ -1,5 +1,10 @@
 import React from 'react';
-import { helper, forklift, delivery, deliveryVan } from '@/public/assets/icons';
+import {
+  helper,
+  forklift,
+  delivery,
+  deliveryVan,
+} from '../public/assets/icons';
 import Image from 'next/image';
 import Link from 'next/link';
 const WorkSection = () => {

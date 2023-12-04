@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/hero.jpg';
+import heroImage from '../public/assets/images/hero.jpg';
 import Link from 'next/link';
 const HeroSection = () => {
   return (

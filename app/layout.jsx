@@ -1,10 +1,8 @@
 import './globals.css';
 import GoogleAnalytics from './GoogleAnalytics';
 import { Inter, Roboto } from 'next/font/google';
-import Head from 'next/head';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import { GoogleTagManager } from '@next/third-parties/google';
 
 const inter = Inter({

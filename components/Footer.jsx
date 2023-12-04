@@ -4,7 +4,7 @@ import { FaTwitter } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
-import LogoImg from '@/public/assets/icons/logo.jpg';
+import LogoImg from '../public/assets/icons/logo.jpg';
 function Footer() {
   return (
     <>

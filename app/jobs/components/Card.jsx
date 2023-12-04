@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card';
+} from '../../../components/ui/card';
 import Link from 'next/link';
 import { HiArrowLongRight } from 'react-icons/hi2';
 const CardPage = ({ job }) => {

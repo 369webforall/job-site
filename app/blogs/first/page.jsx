@@ -1,10 +1,11 @@
 import Link from 'next/link';
 
 import Image from 'next/image';
-import career from '@/public/assets/blogs/career1.jpg';
-import interview from '@/public/assets/blogs/interview.jpg';
-import interview2 from '@/public/assets/blogs/interview2.jpg';
-import interview3 from '@/public/assets/blogs/interview3.jpg';
+import career1 from '../../../public/career1.jpg';
+import interview from '../../../public/interview.jpg';
+
+import interview2 from '../../../public/interview2.jpg';
+import interview3 from '../../../public/interview3.jpg';
 
 export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
@@ -27,7 +28,7 @@ const Blogs = () => {
             <Image
               className="object-cover object-center rounded"
               alt="meeting"
-              src={career}
+              src={career1}
               placeholder="blur"
               loading="eager"
               width={1200}
@@ -75,7 +76,7 @@ const Blogs = () => {
             <div className="md:w-[40%]">
               <Image
                 className="object-cover object-center rounded"
-                alt="interview"
+                alt="interview two"
                 src={interview2}
                 placeholder="blur"
                 loading="eager"

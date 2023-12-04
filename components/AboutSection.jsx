@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import poster from '@/public/assets/images/poster.jpg';
+import poster from '../public/assets/images/poster.jpg';
 import { HiArrowLongRight } from 'react-icons/hi2';
 import Link from 'next/link';
 const AboutSection = () => {

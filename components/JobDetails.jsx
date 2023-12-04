@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/recruitment.jpg';
+import heroImage from '../public/assets/images/recruitment.jpg';
 
 const JobDetails = () => {
   const [isExpanded, setIsExpanded] = useState(false);

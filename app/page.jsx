@@ -1,7 +1,7 @@
-import HeroSection from '@/components/Hero';
-import AboutSection from '@/components/AboutSection';
-import WorkSection from '@/components/WorkSection';
-import JobDetails from '@/components/JobDetails';
+import HeroSection from '../components/Hero';
+import AboutSection from '../components/AboutSection';
+import WorkSection from '../components/WorkSection';
+import JobDetails from '../components/JobDetails';
 
 export default function Home() {
   return (

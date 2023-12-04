@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { navData } from '@/constants';
+import { navData } from '../constants/index';
 import Link from 'next/link';
 import { AnimatePresence, motion } from 'framer-motion';
 const NavLinks = ({ handleScroll }) => {

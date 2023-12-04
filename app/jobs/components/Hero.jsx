@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import heroImage from '@/public/assets/images/hero-job.jpg';
+import heroImage from '../../../public/assets/images/hero-job.jpg';
 import Link from 'next/link';
 const HeroJob = () => {
   return (

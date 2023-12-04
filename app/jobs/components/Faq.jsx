@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion';
+} from '../../../components/ui/accordion';
 const Faq = () => {
   return (
     <div className="px-4 md:container mx-auto my-4 md:my-20">
