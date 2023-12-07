@@ -114,7 +114,10 @@ const Blogs = () => {
               </li>
               <li>Gibt es spezifische Anforderungen an Soft Skills?</li>
               <li>Wie gestaltet sich der Auswahlprozess?</li>
-
+              <li>
+                Welche Unternehmen haben Interesse an Kandidaten mit meinen
+                Qualifikationen?
+              </li>
               <li>Wie lange dauert der Vermittlungsprozess im Durchschnitt?</li>
               <li>
                 Welche Unterstützung bieten Sie während des Bewerbungsprozesses?

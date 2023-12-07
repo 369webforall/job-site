@@ -90,11 +90,6 @@ const Blogs = () => {
                 Die Vakanzzeiten nehmen zu, während der Wettbewerb um
                 Top-Talente intensiver wird.
               </p>
-              <h3 className="text-lg md:text-2xl">Zeitdruck:</h3>
-              <p className="leading-relaxed text-lg text-justify font-roboto max-w-3xl p-1 mb-3">
-                Die Vakanzzeiten nehmen zu, während der Wettbewerb um
-                Top-Talente intensiver wird.
-              </p>
               <h3 className="text-lg md:text-2xl">Qualität:</h3>
               <p className="leading-relaxed text-lg text-justify font-roboto max-w-3xl p-1 mb-3">
                 Die Suche nach den richtigen Kandidaten, die nicht nur über die
