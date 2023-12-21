@@ -238,6 +238,7 @@ const PrivacyPage = () => {
         href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="microsoft support"
       >
         windows microsoft
       </a>
@@ -246,6 +247,7 @@ const PrivacyPage = () => {
         href="https://help.apple.com/safari/mac/8.0/en.lproj/sfri11471.html"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="microsoft support"
       >
         help apple
       </a>
@@ -254,6 +256,7 @@ const PrivacyPage = () => {
         href="https://support.apple.com/"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="apple support"
       >
         apple support
       </a>
@@ -262,6 +265,7 @@ const PrivacyPage = () => {
         href="https://support.google.com/chrome/answer/95647?hl=de&hlrm=en"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="google support"
       >
         support google com
       </a>
@@ -270,6 +274,7 @@ const PrivacyPage = () => {
         href="https://support.mozilla.org/de/kb/verbesserter-schutz-aktivitatenverfolgung-desktop?redirectslug=cookies-erlauben-und-ablehnen&redirectlocale=de"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="mozilla support"
       >
         support mozilla
       </a>
@@ -278,6 +283,7 @@ const PrivacyPage = () => {
         href="https://help.opera.com/en/latest/security-and-privacy/"
         target="_blank"
         className="mt-1 text-yellow-400 hover:text-yellow-600"
+        alt="opera help"
       >
         help opera
       </a>
