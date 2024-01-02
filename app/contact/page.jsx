@@ -1,10 +1,12 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 import ContactForm from './ContactForm';
 
-import Calendly from './Calendly';
 import Address from './Address';
 
 import Map from './Map';
+
+const Calendly = dynamic(() => import('./Calendly'), { ssr: false });
 
 export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';

@@ -25,7 +25,7 @@ const PrivacyPage = () => {
       <p className="mt-4">
         Tel.: +49 179 7257337 / +49 15510 204189
         <br />
-        kontat@ld-personalvermittlung.de
+        kontakt@ld-personalvermittlung.de
         <br />
         <a
           href="http://www.ld-personalvermittlung.de"
