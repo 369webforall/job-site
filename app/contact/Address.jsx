@@ -8,7 +8,7 @@ const Address = () => {
         Kontaktdetails
       </h2>
       <div className=" flex flex-col self-start">
-        <div className="max-w-sm bg-orange-100 bg-gradient-to-r from-orange-400 md:from-yellow-500 p-10">
+        <div className="sm:max-w-sm bg-orange-100 bg-gradient-to-r from-orange-400 md:from-yellow-500 p-2 sm:p-10">
           <ul className="mt-4">
             <li>
               <Link
@@ -76,7 +76,7 @@ const Address = () => {
             <li className="mt-4">
               <Link
                 href="/contact"
-                className="flex items-center opacity-75 hover:opacity-100"
+                className="flex flex-col sm:flex-row  opacity-75 hover:opacity-100"
               >
                 <span>
                   <svg

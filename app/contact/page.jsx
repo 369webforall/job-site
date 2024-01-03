@@ -1,12 +1,10 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
 import ContactForm from './ContactForm';
+import Calendly from './Calendly';
 
 import Address from './Address';
 
 import Map from './Map';
-
-const Calendly = dynamic(() => import('./Calendly'), { ssr: false });
 
 export async function generateMetadata() {
   const siteURL = 'https://www.ldpersonalvermittlung.com';
@@ -22,7 +20,7 @@ export async function generateMetadata() {
 }
 const Contact = () => {
   return (
-    <div className="max-w-[95%] mx-auto px-10 py-10 md:my-20">
+    <div className="max-w-[95%] mx-auto px-4 sm:px-10 py-10 md:my-20">
       <div className="flex flex-col gap-16 lg:flex-row">
         <div className="flex-1">
           <Address />
