@@ -21,7 +21,7 @@ const CardPage = ({ job }) => {
         <p>{description}</p>
       </CardContent>
       <CardFooter className="bg-orange-600 hover:bg-orange-800  py-2">
-        <Link href={`jobs/${link}`} className="text-white">
+        <Link href={`/jobs/${link}`} className="text-white">
           <span className="flex gap-2 items-center">
             {details}
             <HiArrowLongRight />
