@@ -44,3 +44,23 @@ export const jobData = [
     link: '/lagerhelfer',
   },
 ];
+
+export const employeeData = [{
+  id:1,
+  name:'Lily Loredana',
+  title:'Rekrutierungskoordinator',
+  img:'/employee/Lily.jpg'
+},
+{
+  id:2,
+  name:'Izabell',
+  title:'Recruiter-Koordinator Rumänien',
+  img:'/employee/Izabell.jpg'
+},
+{
+  id:3,
+  name:'Dennis Schwarz',
+  title:'Recruiter',
+  img:'/employee/Dennis.jpg'
+}
+]

@@ -15,8 +15,6 @@ const AboutSection = () => {
               priority={true}
               width={800}
               height={600}
-              objectFit="cover"
-              objectPosition="center"
               layout="responsive"
               loading="eager"
               placeholder="blur"

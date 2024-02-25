@@ -11,7 +11,7 @@ const JobDetails = () => {
   };
 
   return (
-    <section className="p-5 font-roboto  my-32">
+    <section className="p-5 font-roboto  mt-32 mb-16">
       <div className="text-center mb-32">
         <h2 className="sm:text-3xl text-2xl font-sans text-gray-900 mb-4">
           Suchen Sie qualifizierte Mitarbeiter? Wir sind hier, um Ihnen zu
