@@ -5,7 +5,7 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 import Link from 'next/link';
 const AboutSection = () => {
   return (
-    <section className="relative text-gray-800 lg:py-12">
+    <section className="relative text-gray-800 lg:py-6">
       <div className="w-full lg:container mx-auto  px-1 py-10 flex flex-col  lg:flex-row items-center justify-between gap-10">
         <div className="relative py-4 flex items-center justify-center w-full md:w-1/2">
           <div className="relative">

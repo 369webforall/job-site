@@ -1,6 +1,6 @@
-'use client';
+'use client'
 import { useRef, useState } from 'react';
-import React from 'react';
+import React, { useEffect } from 'react'; // Add useEffect import
 import Logo from './Logo';
 import NavLinks from './NavLinks';
 import Link from 'next/link';
@@ -10,6 +10,17 @@ import { MdOutlineClose } from 'react-icons/md';
 const Navbar = () => {
   const ref = useRef();
   const [showMenu, setShowMenu] = useState(false);
+  const [isMobile, setIsMobile] = useState(false); // Add state for mobile detection
+
+  useEffect(() => { // Add useEffect hook to detect screen size on mount
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Set breakpoint according to your design
+    };
+    handleResize(); // Call it initially
+    window.addEventListener('resize', handleResize); // Add event listener
+    return () => window.removeEventListener('resize', handleResize); // Clean up
+  }, []);
+
   const handleScroll = (e) => {
     setShowMenu(false);
     const href = e.currentTarget.href;
@@ -32,28 +43,33 @@ const Navbar = () => {
       setShowMenu(false);
     }
   }
+
   return (
-    <header className="px-4 w-full shadow-navbarShadow h-18 lg:h-20  sticky top-0 z-50 bg-[#EFEFED] flex justify-between items-center">
+    <header className="px-4 w-full shadow-navbarShadow h-18 lg:h-20 sticky top-0 z-50 bg-[#EFEFED] flex justify-between items-center">
       <div className="w-full px-5 md:px-6 lg:px-20 h-full mx-auto py-1 flex items-center justify-between">
         <Logo />
-        <div className="hidden mdl:inline-flex items-center flex-1 justify-end">
-          <nav className="grid grid-cols-5 gap-10">
-            <NavLinks handleScroll={handleScroll} />
-          </nav>
-        </div>
+        {!isMobile && ( // Render desktop navbar when not on mobile
+          <div className="hidden md:inline-flex items-center flex-1 justify-end">
+            <nav className="grid grid-cols-5 gap-10">
+              <NavLinks handleScroll={handleScroll} />
+            </nav>
+          </div>
+        )}
         {/* small icon */}
-        <div
-          onClick={() => setShowMenu(true)}
-          className="w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-gray-900 cursor-pointer overflow-hidden group"
-        >
-          <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
-        </div>
-        {showMenu && (
+        {isMobile && ( // Render hamburger menu on mobile
+          <div
+            onClick={() => setShowMenu(true)}
+            className="w-6 h-5 flex flex-col justify-between items-center md:hidden text-4xl text-gray-900 cursor-pointer overflow-hidden group"
+          >
+            <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-0 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-black inline-flex transform group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
+          </div>
+        )}
+        {showMenu && isMobile && ( // Render mobile menu when showMenu is true and on mobile
           <div
             ref={(node) => (ref.current = node)}
-            className="absolute mdl:hidden top-0 right-0 w-full h-screen bg-[#EFEFED] bg-opacity-50 flex flex-col items-end"
+            className="absolute md:hidden top-0 right-0 w-full h-screen bg-[#EFEFED] bg-opacity-50 flex flex-col items-end"
           >
             <motion.div className="w-[80%] h-full overflow-y-scroll bg-[#EFEFED] flex flex-col items-center px-4 py-10 relative">
               <MdOutlineClose

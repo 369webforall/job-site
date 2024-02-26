@@ -49,18 +49,22 @@ export const employeeData = [{
   id:1,
   name:'Lily Loredana',
   title:'Rekrutierungskoordinator',
-  img:'/employee/Lily.jpg'
+  img:'/employee/Lily.jpg',
+  task:'Organisation, Verwaltung, Mitarbeiter und Kundenbetreuung'
 },
 {
   id:2,
   name:'Izabell',
-  title:'Recruiter-Koordinator Rumänien',
-  img:'/employee/Izabell.jpg'
+  title:'Koordinator Rumänien',
+  img:'/employee/Izabell.jpg',
+  task:'Mitarbeiter- und Kundenbetreuung, Rekrutierungskoordinator für Mitarbeiter aus Rumänien'
+
 },
 {
   id:3,
   name:'Dennis Schwarz',
   title:'Recruiter',
-  img:'/employee/Dennis.jpg'
+  img:'/employee/Dennis.jpg',
+  task:'Rekrutierung von Mitarbeitern aus Rumänien und Deutschland'
 }
 ]
