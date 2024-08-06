@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/jobs/paketzusteller1/page.jsx", "app/jobs/paketzusteller/page.jsx", "app/jobs/lagermitarbeiter/page.sx"  ],
   "exclude": [
     "node_modules"
   ]

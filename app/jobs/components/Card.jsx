@@ -12,7 +12,7 @@ import { HiArrowLongRight } from 'react-icons/hi2';
 const CardPage = ({ job }) => {
   const { title, description, company, details, link } = job;
   return (
-    <Card className="lg:max-w-md w-full h-72 flex justify-between flex-col">
+    <Card className="lg:max-w-md w-full h-64 flex justify-between flex-col">
       <CardHeader>
         <CardDescription>{company}</CardDescription>
         <CardTitle className="text-gray-900 py-2">{title}</CardTitle>

@@ -1,12 +1,12 @@
-import React from 'react';
-import { jobData } from '../../../constants';
+import React from "react";
+import { jobData } from "../../../constants";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '../../../components/ui/accordion';
-import CardPage from './Card';
+} from "../../../components/ui/accordion";
+import CardPage from "./Card";
 const Accordian = () => {
   return (
     <div className="container mx-auto my-20">
@@ -75,6 +75,50 @@ const Accordian = () => {
               <AccordionContent>
                 Erfahrung im Lagerbetrieb ist von Vorteil, aber nicht unbedingt
                 erforderlich.
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Lagerhelfer&location="
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-5">
+              <AccordionTrigger>Lagermitarbeiter:</AccordionTrigger>
+              <AccordionContent>
+                Stellenanzeige: Lagermitarbeiter/Staplerfahrer/Kommissionierer
+                (m/w/d)- Deutschlandweit Über uns:
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Lagerhelfer&location="
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-6">
+              <AccordionTrigger>Paketzusteller:</AccordionTrigger>
+              <AccordionContent>
+                Paketzusteller (m/w/d) bei dem größten Logistikdienstleister
+                Deutschlands in München.
+                <br />
+                <a
+                  href="https://www.gehalt.de/einkommen/search?searchtext=Lagerhelfer&location="
+                  target="_blank"
+                  className="hover:border-b border-orange-500 transition-colors"
+                >
+                  Möglicher Verdienst in diesem Beruf.
+                </a>
+              </AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-7">
+              <AccordionTrigger>Recruiter:</AccordionTrigger>
+              <AccordionContent>
+                Recruiter (m/w/d) - Europaweit im Homeoffice.
                 <br />
                 <a
                   href="https://www.gehalt.de/einkommen/search?searchtext=Lagerhelfer&location="

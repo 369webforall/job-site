@@ -43,6 +43,42 @@ export const jobData = [
     details: 'JOB-DETAILS ANZEIGEN',
     link: '/lagerhelfer',
   },
+  {
+    id: 5,
+    title: 'Lagermitarbeiter',
+    company: 'LD-Personalvermittlungs',
+    description:
+      'Lagermitarbeiter/Staplerfahrer/Kommissionierer (m/w/d)- Deutschlandweit.',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/lagermitarbeiter',
+  },
+  {
+    id: 6,
+    title: 'Paketzusteller',
+    company: 'LD-Personalvermittlungs',
+    description:
+      ' Paketzusteller (m/w/d) bei dem größten Logistikdienstleister Deutschlands  in München.',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/paketzusteller',
+  },
+  {
+    id: 7,
+    title: 'Paketzusteller',
+    company: 'LD-Personalvermittlungs',
+    description:
+      'Paketzusteller (m/w/d) bei einem namhaften Kunden in Steißlingen',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/paketzusteller1',
+  },
+  {
+    id: 8,
+    title: 'Recruiter',
+    company: 'LD-Personalvermittlungs',
+    description:
+      ' Recruiter (m/w/d) - Europaweit im Homeoffice',
+    details: 'JOB-DETAILS ANZEIGEN',
+    link: '/recruiter',
+  },
 ];
 
 export const employeeData = [{
